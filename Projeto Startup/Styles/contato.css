@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background: #ffffff;
+
+}
+
+.Header{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.Header #Logo:link{
+    color: black;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.Header #Logo:visited {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.Header #Logo:hover {
+    color: #B23A48;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.navbar a{
+    margin: 10px;
+    margin-top: 15px;
+    font-size: 16px;
+    margin-left: 60%;
+    font-weight: bolder;
+}
+
+.navbar a:link {
+    color: #B23A48;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.navbar a:visited {
+    color: #B23A48;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    color: #640D14;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bolder;
+}
+
+.navbar #contato:link {
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #640D14;
+    color: white;
+    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar #contato:visited {
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #B23A48;
+    color: white;
+    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar #contato:hover {
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #640D14;
+    color: white;
+    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
+    font-family: 'Inter', sans-serif;
+}
+
+
+.titulo h1#Titulocont {
+
+    padding-top: 125px;
+    padding-bottom: 25px;
+    font-family: 'Fascinate Inline', cursive;
+    font-weight: 30px;
+    font-size: 80px;
+    text-align: center;
+
+}
+
+
+
+.inputsnomeemail {
+
+    font-family: 'Inter', sans-serif;
+    gap: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#Nome,
+#Email {
+
+    width: 400px;
+    height: 42px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 4px;
+    border: none;
+    background: lightgray;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.InputMensagem {
+
+    font-family: 'Inter', sans-serif;
+    gap: 5px;
+    padding-bottom: 4px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#Mensagem {
+
+    width: 810px;
+    height: 42px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 3px;
+    border: none;
+    background: lightgray;
+    font-size: 15px;
+    padding-left: 10px;
+    box-shadow:  1px 1px 1px rgba(40, 40, 40, 0.311);
+
+}
+
+.check{
+
+    font-family: 'Inter', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.check input{
+
+    background-color: #B23A48;
+    width: 25px;
+    height: 20px;
+
+}
+
+.check a{
+    color: #B23A48;
+    text-decoration: none;
+    margin-left: 5px;
+    font-weight: bold;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.check a:hover {
+    color: #780000;
+    transform: scale(1.01);
+    transition: all 0.3s ease;
+    font-weight: bold;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.Botao-de-envio{
+
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: #B23A48;
+
+}
+
+#Submit{
+
+    color: white;
+    background-color: #B23A48;
+    border: none;
+    border-radius: 10px;
+    width: 400px;
+    height: 55px;
+    font-weight: 700;
+    font-size: medium;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow:  1px 1px 1px rgba(40, 40, 40, 0.311);
+}
+
+#Submit:hover{
+
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #640D14;
+    color: white;
+    box-shadow:  2px 2px 2px rgba(40, 40, 40, 0.311);
+}
+
+/*reCAPTCHA*/
+
+.confirmacoes #recaptcha {
+    padding: 10px 0px 1px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

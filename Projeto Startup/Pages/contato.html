@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/contato.css">
+     <!--Recaptcha-->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <title>Contato</title>
+</head>
+
+<body>
+    <!--Navbar lá de cima-->
+    <header class="Header">
+        <a href="../Pages/landing page.html" id="Logo">Logo</a>
+
+        <div class="navbar">
+
+            <a href="../Pages/landing page.html" id="inicio">Inicio</a>
+            <a href="#" id="sobre">Sobre</a>
+            <a href="../Pages/sistema.html" id="sistema">Sistema</a>
+            <a href="#" id="dados">Meus dados</a>
+            <a href="../Pages/contato.html" id="contato">Contato</a>
+
+        </div>
+    </header>
+    <!--Acaba aqui-->
+    <main>
+        <!--A parte do título com a letra grande-->
+        <div class="titulo">
+            <H1 id="Titulocont">Contato</H1>
+        </div>
+        <!--Formulário-->
+        <section id="formulario">
+            <form action="#">
+                <div class="inputsnomeemail">
+                    <label for="Nome"></label>
+                    <input type="text" id="Nome" placeholder="Nome">
+                    <label for="Email"></label>
+                    <input type="text" id="Email" placeholder="E-mail">
+                </div>
+                <div class="InputMensagem">
+                    <label for="Msg"></label>
+                    <input type="text" id="Mensagem" placeholder="Mensagem">
+                </div>
+                <!--Recaptcha-->
+                <div class="confirmacoes">
+                    <section id="recaptcha"> 
+                        <div class="g-recaptcha" data-sitekey="6Lclp-UnAAAAAPBQ-6S8XP1xwgR4Nl0PIpNm1OXA" data-callback="verifyCaptcha"></div>
+                        <div id="g-recaptcha-error"></div>
+                    </section>
+                <div class="check">
+                    <input type="checkbox" name="Confirmacao" id="Confirm">
+                    <label for="checkbox"> Li e aceito os <a href="termos.html">Termos e Condições</a></label>
+                </div>
+
+                <div class="Botao-de-envio">
+                    <button type="submit" id="Submit">Enviar Dados</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

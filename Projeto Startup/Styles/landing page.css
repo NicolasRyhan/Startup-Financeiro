@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Schibsted+Grotesk&display=swap');
+
+*{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*Boneco Finança*/
+
+.finança{
+    width: 100px;
+    position: fixed;
+    border-radius: 100px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
+}
+
+/*Inicio*/
+
+.inicio h1{
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 200px;
+    color: #640D14;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.inicio .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio .navbar a:link{
+    color: #B23A48;
+    text-decoration: none;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 350px;
+}
+
+.inicio .navbar a:visited{
+    font-family: 'Schibsted Grotesk', sans-serif;
+    color: #B23A48;
+}
+
+.inicio .navbar a:hover{
+    font-family: 'Schibsted Grotesk', sans-serif;
+    color: #FF8F9C;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+/*Imagens inicio*/
+
+.inicio .img1{
+    position: absolute;
+    left: 100px;
+    top: 270px;
+    width: 400px;
+}
+
+.inicio .img2{
+    position: absolute;
+    top: 270px;
+    right: 155px;
+    width: 270px; /*-170*/
+}
+
+/*Informações sobre o Site*/
+
+.info1 {
+    margin-bottom: 150px;
+    color: #640D14;
+    position: relative;
+    width: 550px;
+    height: 200px;
+    font-size:28px;
+    font-family: 'Fascinate Inline', cursive;   
+    left: 200px;
+}
+.info2 {
+    font-family: 'Schibsted Grotesk', sans-serif;
+    margin-top: 120px;
+    color: #640D14;
+    position: absolute;
+    width: 450px;
+    font-size: 12.5px;
+    text-align: justify;
+    right: 200px;
+    top: 833px;
+}
+
+/*Opçoes do Sistema*/
+
+.opcoes {
+    background-color: #640D14;
+    height: 650px;
+    padding-top: 3%;
+}
+
+.opcoes .sistema {
+    background-color: #F2F2F2;
+    width: 1090px;
+    position: relative;
+    margin-top: 65px;
+    left: 200px;
+    border-radius: 15px;
+    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
+}
+
+.opcoes .sistema img {
+    width: 80px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.opcoes .sistema h5 {
+    color: #640D14;
+    position: absolute;
+    left: 150px;
+    top: 20px;
+    font-size: 20px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.opcoes .sistema p {
+    color: #B23A48;
+    position: absolute;
+    left: 150px;
+    top: 65px;
+    font-size: 15px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.opcoes .sistema a:link {
+    color: #B23A48;
+    position: absolute;
+    right: 70px;
+    top: 60px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.opcoes .sistema a:visited {
+    color: #B23A48;
+    position: absolute;
+    right: 70px;
+    top: 60px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.opcoes .sistema a:hover {
+    color: #FF8F9C;
+    position: absolute;
+    right: 70px;
+    top: 60px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+/*Opçoes do Suporte*/
+
+.opcoes .suporte {
+    background-color: #F2F2F2;
+    width: 1090px;
+    position: relative;
+    margin-top: 10px;
+    left: 200px;
+    border-radius: 15px;
+    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
+}
+
+.opcoes .suporte img {
+    width: 70px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.opcoes .suporte h5 {
+    color: #640D14;
+    position: absolute;
+    left: 150px;
+    top: 20px;
+    font-size: 20px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.opcoes .suporte p {
+    color: #B23A48;
+    position: absolute;
+    left: 150px;
+    top: 65px;
+    font-size: 15px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.opcoes .suporte a:link {
+    color: #B23A48;
+    position: absolute;
+    right: 70px;
+    top: 60px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.opcoes .suporte a:visited {
+    color: #B23A48;
+    position: absolute;
+    right: 70px;
+    top: 60px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.opcoes .suporte a:hover {
+    color: #FF8F9C;
+    position: absolute;
+    right: 70px;
+    top: 60px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+/*Opçoes do clientes*/
+
+.opcoes .clientes {
+    background-color: #F2F2F2;
+    width: 1090px;
+    position: relative;
+    margin-top: 10px;
+    left: 200px;
+    border-radius: 15px;
+    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
+}
+
+.opcoes .clientes img {
+    width: 80px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.opcoes .clientes h5 {
+    color: #640D14;
+    position: absolute;
+    left: 150px;
+    top: 20px;
+    font-size: 20px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.opcoes .clientes p {
+    color: #B23A48;
+    position: absolute;
+    left: 150px;
+    top: 65px;
+    font-size: 15px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.opcoes .clientes a:link {
+    color: #B23A48;
+    position: absolute;
+    right: 70px;
+    top: 60px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.opcoes .clientes a:visited {
+    color: #B23A48;
+    position: absolute;
+    right: 70px;
+    top: 60px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.opcoes .clientes a:hover {
+    color: #FF8F9C;
+    position: absolute;
+    right: 70px;
+    top: 60px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+/*Depoimentos*/
+
+.depoimentos{
+    display: flex;
+    margin: 100px;
+}
+
+/*DP1*/
+
+.depoimentos .dp1 {
+    width:290px;
+    height: 400px;
+    padding: 25px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
+}
+
+.depoimentos .dp1 img {
+    width: 150px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.depoimentos .dp1 h5 {
+    font-size: 20px;
+    color: #8C2F39;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.depoimentos .dp1 p {
+    color: #8C2F39;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+/*DP2*/
+
+.depoimentos .dp2 {
+    width:290px;
+    height: 400px;
+    padding: 25px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
+}
+
+.depoimentos .dp2 img {
+    display: block;
+    align-items: center;
+    width: 140px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.depoimentos .dp2 h5 {
+    font-size: 20px;
+    color: #8C2F39;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.depoimentos .dp2 p {
+    color: #8C2F39;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+/*DP3*/
+
+.depoimentos .dp3 {
+    width:290px;
+    height: 400px;
+    padding: 25px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
+}
+
+.depoimentos .dp3 img {
+    display: block;
+    width: 190px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.depoimentos .dp3 h5 {
+    font-size: 20px;
+    color: #8C2F39;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.depoimentos .dp3 p {
+    color: #8C2F39;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+/*Mensagem Final*/
+
+.mensagem {
+    background-color: #640D14;
+    height: 450px;
+}
+
+.mensagem h1 {
+    color: white;
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 45px;
+    width: 700px;
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+
+.mensagem .btn-finais{
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+
+.mensagem .btn-finais .btn1{
+    background-color: white;
+    color: #640D14;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    width: 120px;
+    height: 40px;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mensagem .btn-finais .btn2{
+    background-color: white;
+    color: #640D14;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    width: 120px;
+    height: 40px;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 2px;
+    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+/*Rodapé*/
+
+.rodape {
+    display: flex;
+}
+
+.rodape h5{
+    color: #640D14;
+    font-size: 20px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    padding-left: 300px;
+}
+
+.rodape a:link{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #8C2F39;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    padding-left: 300px;
+}
+
+.rodape a:visited{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #8C2F39;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    padding-left: 300px;
+}
+
+.rodape a:hover{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #B23A48;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    padding-left: 300px;
+}
+
+/*Termos*/
+
+.termos {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+

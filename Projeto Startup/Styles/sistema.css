@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Inter&family=Schibsted+Grotesk&display=swap');
+
+/*Navbar*/
+
+.navbar {
+    display: flex;
+}
+
+/*Logo*/
+
+.navbar .logo:link{
+    color: black;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold
+}
+
+.navbar .logo:visited {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold
+}
+
+.navbar .logo:hover {
+    color: #B23A48;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+/*Links*/
+
+.navbar .nvb{
+    margin: 10px;
+    margin-top: 15px;
+    font-size: 16px;
+    margin-left: 60%;
+}
+
+.navbar .nvb .link:link {
+    color: #B23A48;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.navbar .nvb .link:visited {
+    color: #B23A48;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.navbar .nvb .link:hover {
+    color: #640D14;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+/*Contato*/
+
+.navbar .nvb .contato:link {
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #640D14;
+    color: white;
+    transition: all 0.3s ease;
+    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar .nvb .contato:visited {
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #640D14;
+    color: white;
+    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar .nvb .contato:hover {
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #B23A48;
+    color: white;
+    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
+    font-family: 'Inter', sans-serif;
+}
+
+/*Titulo*/
+
+.titulo {
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 50px;
+    width: 36%;
+    margin-left: 35%;
+
+}
+
+/*Formulario*/
+
+.formulario {
+    max-width: 900px;
+    width: 100%;
+    padding-left: 20%;
+    border-radius: 5px; 
+}
+
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+.formulario .input-box {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+
+.formulario .input-box .details {
+    display: block;
+    font-weight: 560;
+    margin-bottom: 5px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-weight: bold;
+    
+}
+
+.formulario .input-box input {
+    height: 45px;
+    width: 96%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #ededed;
+    padding-left: 10px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+    box-shadow:  1px 1px 1px rgba(40, 40, 40, 0.311);
+}
+
+.formulario .input-box input:focus {
+    border-color: #B23A48;
+    box-shadow:  1px 1px 1px rgba(40, 40, 40, 0.311);
+}
+
+/*Botão*/
+
+.formulario button {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    background-color: #d3d3d3;
+    border: 1px solid #e5e5e5;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+    box-shadow:  1px 1px 1px rgba(40, 40, 40, 0.311);
+    margin-bottom: 50px;
+}
+
+.formulario button:hover {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    background-color: #B23A48;
+    color: #fff;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+    box-shadow:  2px 2px 2px rgba(40, 40, 40, 0.311);
+    cursor: pointer;
+}
+
+/*Confirmações*/
+
+.formulario .confirmacoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+}
+
+.formulario .confirmacoes input{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: #d3d3d3;
+    border: 5px solid #B23A48;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.formulario .confirmacoes  input:checked{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: #B23A48;
+    border: 1px solid #B23A48;
+    border-radius: 3px;
+}
+
+.formulario .confirmacoes p{
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.formulario .confirmacoes a {
+    color: #B23A48;
+    text-decoration: none;
+    margin-left: 5px;
+    font-weight: bold;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.formulario .confirmacoes a:hover, .formulario .confirmacoes a:visited {
+    color: #780000;
+    transform: scale(1.01);
+    transition: all 0.3s ease;
+    font-weight: bold;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}

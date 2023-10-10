@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Recaptcha-->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="stylesheet" href="../Styles/cadastro.css">
+    <title>Cadastro</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="title">Cadastro</div>
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Nome</span> 
+                        <input type="text" placeholder="Nome" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email</span> 
+                        <input type="text" placeholder="Email" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Senha</span> 
+                        <input type="password" placeholder="Senha" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Confirme senha</span> 
+                        <input type="password" placeholder="Confirme senha" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Número</span> 
+                        <input type="text" placeholder="Número" required>
+                    </div>
+                </div>
+                <div class="form-link">
+                    <p>Já tem conta? <a href="../Pages/login.html">Logar</a></p>
+                </div>
+                 <!--Recaptcha-->
+                <div class="confirmacoes">
+                    <section id="recaptcha"> 
+                        <div class="g-recaptcha" data-sitekey="6Lclp-UnAAAAAPBQ-6S8XP1xwgR4Nl0PIpNm1OXA" data-callback="verifyCaptcha"></div>
+                        <div id="g-recaptcha-error"></div>
+                    </section>
+                <div class="button">
+                    <input type="submit" value="Cadastrar">
+                </div> 
+            </div>    
+        </form>
+    </div>
+</body>
+</html>

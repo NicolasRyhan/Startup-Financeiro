@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/login.css">
+    <!--Recaptcha-->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <title>Login</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="title">Login</div>
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <div class="input-box">
+                            <span class="details">Email</span> 
+                            <input type="text" placeholder="Email" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Senha</span> 
+                            <input type="password" placeholder="Senha" required>
+                        </div>
+                    <!--<div class="form-link"> 
+                            <a href="#" class="forgot-pass">Esqueceu sua senha?</a> olha lá olha só
+                        </div>-->
+                    </div> 
+                    <div class="form-link">
+                        <p>Não é cadastrado? <a href="../Pages/cadastro.html">Cadastre-se</a></p>
+                    </div>
+                    <!--Recaptcha-->
+                    <div class="confirmacoes">
+                        <section id="recaptcha"> 
+                            <div class="g-recaptcha" data-sitekey="6Lclp-UnAAAAAPBQ-6S8XP1xwgR4Nl0PIpNm1OXA" data-callback="verifyCaptcha"></div>
+                            <div id="g-recaptcha-error"></div>
+                        </section>
+                    <div class="button">
+                        <input type="submit" value="Entrar">
+                    </div>
+                </div>
+            </div>    
+        </form>
+    </div>
+</body>
+</html>
