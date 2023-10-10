@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Schibsted+Grotesk&display=swap');
 
-*{
-    margin-left: 0;
-    margin-right: 0;
+body{
+    max-width: 1080px;
+    margin: 0;
 }
 
 /*Boneco Finança*/
@@ -26,12 +26,14 @@
     display: flex;
     justify-content: center;
     align-items: center;    
+    margin-left: 40%;
 }
 
 .inicio .navbar{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 40%;
 }
 
 .inicio .navbar a:link{
@@ -100,6 +102,7 @@
 
 .opcoes {
     background-color: #640D14;
+    width: 1480px;
     height: 650px;
     padding-top: 3%;
 }
@@ -298,7 +301,9 @@
 
 .depoimentos{
     display: flex;
-    margin: 100px;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    margin-left: 1.5%;
 }
 
 /*DP1*/
@@ -307,7 +312,7 @@
     width:290px;
     height: 400px;
     padding: 25px;
-    margin: auto;
+    margin-left: 10%;
     border-radius: 15px;
     background-color: #F2F2F2;
     box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
@@ -338,7 +343,7 @@
     width:290px;
     height: 400px;
     padding: 25px;
-    margin: auto;
+    margin-left: 10%;
     border-radius: 15px;
     background-color: #F2F2F2;
     box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
@@ -349,7 +354,7 @@
     align-items: center;
     width: 140px;
     padding-left: 70px;
-    padding-right: 70px;
+    padding-right: 80px;
     background-color: white;
     border-radius: 15px;
 }
@@ -371,7 +376,7 @@
     width:290px;
     height: 400px;
     padding: 25px;
-    margin: auto;
+    margin-left: 10%;
     border-radius: 15px;
     background-color: #F2F2F2;
     box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
@@ -401,6 +406,8 @@
 
 .mensagem {
     background-color: #640D14;
+    width: 1480px;
+    margin-right: 0;
     height: 450px;
 }
 
@@ -409,13 +416,14 @@
     font-family: 'Fascinate Inline', cursive;
     font-size: 45px;
     width: 700px;
-    position: relative;
-    top: 100px;
-    left: 200px;
+    position: flex;
+    margin-left: 13.5%;
+    padding-top: 2%;
 }
 
 .mensagem .btn-finais{
     position: relative;
+    width: 50%;
     top: 100px;
     left: 200px;
 }
@@ -499,3 +507,7 @@
     justify-content: center;
 }
 
+#creditos{
+    display: flex;
+    margin-left: 35%;
+}
