@@ -6,16 +6,16 @@
     <title>Gasto Sábio</title>
     <link rel="icon" href="../Images/logo01.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="../Styles/landing page.css">
+    <link rel="stylesheet" href="../Styles/landing page2.css">
 <!--Tentativa de Adicionar fontes-->
 
 </head>
 <body>
     <!--Boneco Finança-->
-<img class="finança" src="../Images/finança.png" alt="Boneco do finança">
+<img class="finança" id="finança" src="../Images/finança.png" alt="Boneco do finança">
     <!--Inicio da Página-->
     <div class="inicio">
-        <h1>FINANÇAS</h1>
+        <h1 id="titulo">FINANÇAS</h1>
         <!--Navbar-->
         <div class="navbar">
             <a href="#">Início</a>
@@ -25,8 +25,8 @@
             <a href="../Pages/contato.html">Contato</a>
         </div>
         <!--Imagens-->
-        <img class="img1" src="https://blush.design/api/download?shareUri=gISqarcj8uEiE5Vn&c=Bottom_0%7E2b44ff_Hair_0%7E2c1b18_Skin_0%7E915b3c_Top_0%7Eff4133&w=800&h=800&fm=png" alt="Desenho garota morena sentada em uma pedra com blusa vermelha e calça azul">
-        <img class="img2" src="https://blush.design/api/download?shareUri=ZK-45eQ7QWG3mOpv&c=Bottom_0%7E89c5cc_Hair_0%7E4a312c_Skin_0%7Ed4a181_Top_0%7Eff4133&w=800&h=800&fm=png" alt="Desenho garota morena em pé de blusa vermelha e short azul">
+        <img class="img1" id="img1" src="https://blush.design/api/download?shareUri=gISqarcj8uEiE5Vn&c=Bottom_0%7E2b44ff_Hair_0%7E2c1b18_Skin_0%7E915b3c_Top_0%7Eff4133&w=800&h=800&fm=png" alt="Desenho garota morena sentada em uma pedra com blusa vermelha e calça azul">
+        <img class="img2" id="img2" src="https://blush.design/api/download?shareUri=ZK-45eQ7QWG3mOpv&c=Bottom_0%7E89c5cc_Hair_0%7E4a312c_Skin_0%7Ed4a181_Top_0%7Eff4133&w=800&h=800&fm=png" alt="Desenho garota morena em pé de blusa vermelha e short azul">
     </div>
     <!--Informações atrativas-->
     <div class="info1">
@@ -37,20 +37,20 @@
     </div>
     <!--Opções de Serviços-->
     <div class="opcoes">
-        <div class="sistema">
-            <img src="https://blush.design/api/download?shareUri=syhVsk5zDnwSpSwi&c=Bottom_0%7E2b44ff_Hair_0%7E2c1b18_Skin_0%7Ed4a181_Top_0%7Ef2f2f2&w=800&h=800&fm=png" alt="">
+        <div class="op-container">
+            <img id="op-img" src="https://blush.design/api/download?shareUri=syhVsk5zDnwSpSwi&c=Bottom_0%7E2b44ff_Hair_0%7E2c1b18_Skin_0%7Ed4a181_Top_0%7Ef2f2f2&w=800&h=800&fm=png" alt="">
             <h5>Gerencie seu dinheiro</h5>
             <p>rápido e seguro</p>
             <a href="">></a>
         </div>
-        <div class="suporte">
-            <img src="https://blush.design/api/download?shareUri=WJMVLe6Wj3nAGcQv&c=Bottom_0%7E342a83_Hair_0%7Eb58143_Skin_0%7Ed4a181_Top_0%7Eff4133&w=800&h=800&fm=png" alt="">
+        <div class="op-container">
+            <img id="op-img" src="https://blush.design/api/download?shareUri=WJMVLe6Wj3nAGcQv&c=Bottom_0%7E342a83_Hair_0%7Eb58143_Skin_0%7Ed4a181_Top_0%7Eff4133&w=800&h=800&fm=png" alt="">
             <h5>Suporte</h5>
             <p>24/7 top de linha</p>
             <a href="">></a>
         </div>
-        <div class="clientes">
-            <img src="https://blush.design/api/download?shareUri=VYPcfXVXa71LrJnl&c=Bottom_0%7E342a83_Hair_0%7E181658_Skin_0%7Edcae92_Top_0%7Ef2f2f2&w=800&h=800&fm=png" alt="">
+        <div class="op-container">
+            <img id="op-img" src="https://blush.design/api/download?shareUri=VYPcfXVXa71LrJnl&c=Bottom_0%7E342a83_Hair_0%7E181658_Skin_0%7Edcae92_Top_0%7Ef2f2f2&w=800&h=800&fm=png" alt="">
             <h5>Clientes</h5>
             <p>satisfeitos e fiéis</p>
             <a href="">></a>
@@ -58,20 +58,20 @@
     </div>
     <!--Depimentos dos Clientes-->
     <div class="depoimentos">
-        <div class="dp1">
-            <img src="https://blush.design/api/download?shareUri=DPMn1s8O9VMFPweu&c=Bottom_0%7E393f82_Hair_0%7E2c1b18_Skin_0%7Eb28b67_Top_0%7Eff4133&w=800&h=800&fm=png" alt="">
-            <h5>Este sisstema mudou completamente minha vida financeira, estou fascinado!</h5>
-            <p>Vinícius de Souza</p>
+        <div class="dp-container">
+            <img id="dp-img1" src="https://blush.design/api/download?shareUri=DPMn1s8O9VMFPweu&c=Bottom_0%7E393f82_Hair_0%7E2c1b18_Skin_0%7Eb28b67_Top_0%7Eff4133&w=800&h=800&fm=png" alt="">
+            <h5 id="dp-h">Este sisstema mudou completamente minha vida financeira, estou fascinado!</h5>
+            <p id="dp-p">Vinícius de Souza</p>
         </div>
-        <div class="dp2">
-            <img src="https://blush.design/api/download?shareUri=hNjuN8rq2Ud58MDy&c=Bottom_0%7E393f82_Hair_0%7E2c1b18_Skin_0%7Ed4a181_Top_0%7Ef2f2f2&w=800&h=800&fm=png" alt="">
-            <h5>Nunca pensei que gerenciar minhas finanças pudesse ser tão fácil e prazeroso.</h5>
-            <p>Jefferson Douglas</p>
+        <div class="dp-container">
+            <img id="dp-img2" src="https://blush.design/api/download?shareUri=hNjuN8rq2Ud58MDy&c=Bottom_0%7E393f82_Hair_0%7E2c1b18_Skin_0%7Ed4a181_Top_0%7Ef2f2f2&w=800&h=800&fm=png" alt="">
+            <h5 id="dp-h">Nunca pensei que gerenciar minhas finanças pudesse ser tão fácil e prazeroso.</h5>
+            <p id="dp-p">Jefferson Douglas</p>
         </div>
-        <div class="dp3">
-            <img src="https://blush.design/api/download?shareUri=795yLP7t-ULnaMI1&c=Bottom_0%7E89c5cc_Hair_0%7E2c1b18_Skin_0%7Ed4a181_Top_0%7Effa434&w=800&h=800&fm=png" alt="">
-            <h5>Melhor plataforma de finanças que eu já usei, vale a pena experimentar!</h5>
-            <p>Isabela Renali</p>
+        <div class="dp-container">
+            <img id="dp-img3" src="https://blush.design/api/download?shareUri=795yLP7t-ULnaMI1&c=Bottom_0%7E89c5cc_Hair_0%7E2c1b18_Skin_0%7Ed4a181_Top_0%7Effa434&w=800&h=800&fm=png" alt="">
+            <h5 id="dp-h">Melhor plataforma de finanças que eu já usei, vale a pena experimentar!</h5>
+            <p id="dp-p">Isabela Renali</p>
         </div>
     </div>
     <!--Cadastro final Página-->
