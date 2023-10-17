@@ -8,71 +8,48 @@
 
 /*Logo*/
 
-.navbar .logo:link{
+#logo{
+    width: 200px;
     color: black;
-    font-family: 'Inter', sans-serif;
-    text-decoration: none;
-    margin: 10px;
-    font-size: 25px;
-    font-weight: bold
-}
-
-.navbar .logo:visited {
-    color: black;
-    font-family: 'Inter', sans-serif;
-    text-decoration: none;
-    margin: 10px;
-    font-size: 25px;
-    font-weight: bold
-}
-
-.navbar .logo:hover {
-    color: #B23A48;
     font-family: 'Inter', sans-serif;
     text-decoration: none;
     margin: 10px;
     font-size: 25px;
     font-weight: bold;
-    transition: all 0.5s ease;
+    transition: all 0.5s ease-in-out;
+}
+
+#logo:hover {
+    color: #B23A48;
 }
 
 /*Links*/
 
 .navbar .nvb{
-    margin: 10px;
-    margin-top: 15px;
-    font-size: 16px;
-    margin-left: 60%;
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    margin-right: 10px;
 }
 
-.navbar .nvb .link:link {
+#link{
     color: #B23A48;
     font-family: 'Inter', sans-serif;
     text-decoration: none;
     margin: 10px;
     font-size: 16px;
+    font-weight: bolder;
+    transition: all 0.5s ease-in-out;
 }
 
-.navbar .nvb .link:visited {
-    color: #B23A48;
-    font-family: 'Inter', sans-serif;
-    text-decoration: none;
-    margin: 10px;
-    font-size: 16px;
-}
-
-.navbar .nvb .link:hover {
+#link:hover{
     color: #640D14;
-    font-family: 'Inter', sans-serif;
-    text-decoration: none;
-    margin: 10px;
-    font-weight: bold;
-    transition: all 0.3s ease;
 }
 
 /*Contato*/
 
-.navbar .nvb .contato:link {
+#contato{
     text-decoration: none;
     padding-left: 15px;
     padding-right: 15px;
@@ -82,37 +59,13 @@
     align-items: center;
     background-color: #640D14;
     color: white;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease-in-out;
     box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
     font-family: 'Inter', sans-serif;
 }
 
-.navbar .nvb .contato:visited {
-    text-decoration: none;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 10px;
-    align-items: center;
-    background-color: #640D14;
-    color: white;
-    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
-    font-family: 'Inter', sans-serif;
-}
-
-.navbar .nvb .contato:hover {
-    text-decoration: none;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 10px;
-    align-items: center;
+#contato:hover {
     background-color: #B23A48;
-    color: white;
-    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
-    font-family: 'Inter', sans-serif;
 }
 
 /*Titulo*/
@@ -120,29 +73,31 @@
 .titulo {
     font-family: 'Fascinate Inline', cursive;
     font-size: 50px;
-    width: 36%;
-    margin-left: 35%;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*Formulario*/
 
-.formulario {
-    max-width: 900px;
-    width: 100%;
-    padding-left: 20%;
-    border-radius: 5px; 
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .formulario {
+    max-width: 900px;
+    width: 100%;
+    border-radius: 5px; 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     margin: 20px 0 12px 0;
 }
 
 .formulario .input-box {
     margin-bottom: 15px;
+    margin-left: 15px;
     width: calc(100% / 2 - 20px);
 }
 
@@ -165,7 +120,7 @@
     padding-left: 10px;
     font-size: 16px;
     border-bottom-width: 2px;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
     box-shadow:  1px 1px 1px rgba(40, 40, 40, 0.311);
 }
 
@@ -186,24 +141,16 @@
     padding-left: 15px;
     font-size: 16px;
     border-bottom-width: 2px;
-    transition: all 0.3s ease;
-    box-shadow:  1px 1px 1px rgba(40, 40, 40, 0.311);
+    transition: all 0.5s ease-in-out;
+    box-shadow:  2px 2px 2px rgba(40, 40, 40, 0.311);
     margin-bottom: 50px;
 }
 
 .formulario button:hover {
-    height: 45px;
-    width: 100%;
-    outline: none;
-    border-radius: 5px;
     background-color: #B23A48;
     color: #fff;
     border: 1px solid #ccc;
     padding-left: 15px;
-    font-size: 16px;
-    border-bottom-width: 2px;
-    transition: all 0.3s ease;
-    box-shadow:  2px 2px 2px rgba(40, 40, 40, 0.311);
     cursor: pointer;
 }
 
@@ -231,8 +178,8 @@
     display: inline-block;
     width: 18px;
     height: 18px;
-    background-color: #B23A48;
-    border: 1px solid #B23A48;
+    background-color: #780000;
+    border: 1px solid #780000;
     border-radius: 3px;
 }
 
@@ -241,17 +188,16 @@
 }
 
 .formulario .confirmacoes a {
-    color: #B23A48;
+    color: #780000;
     text-decoration: none;
     margin-left: 5px;
     font-weight: bold;
     font-family: 'Schibsted Grotesk', sans-serif;
+    transition: all 0.5s ease-in-out;
+
 }
 
 .formulario .confirmacoes a:hover, .formulario .confirmacoes a:visited {
     color: #780000;
     transform: scale(1.01);
-    transition: all 0.3s ease;
-    font-weight: bold;
-    font-family: 'Schibsted Grotesk', sans-serif;
 }

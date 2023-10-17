@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Schibsted+Grotesk&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body{
-    max-width: 1080px;
     margin: 0;
 }
 
 /*Boneco Finança*/
 
-.finança{
+#finança{
     width: 100px;
     position: fixed;
     border-radius: 100px;
@@ -19,6 +24,11 @@ body{
 
 /*Inicio*/
 
+.inicio{
+    position: relative;
+    width: 100%;
+}
+
 .inicio h1{
     font-family: 'Fascinate Inline', cursive;
     font-size: 200px;
@@ -26,14 +36,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;    
-    margin-left: 40%;
 }
+
+/*Navbar*/
 
 .inicio .navbar{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 40%;
 }
 
 .inicio .navbar a:link{
@@ -41,9 +51,12 @@ body{
     text-decoration: none;
     font-family: 'Schibsted Grotesk', sans-serif;
     font-weight: bold;
+    margin-top: 50px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 350px;
+    transition: all 0.5s ease-in-out;
+
 }
 
 .inicio .navbar a:visited{
@@ -58,19 +71,19 @@ body{
     font-weight: bolder;
 }
 
-/*Imagens inicio*/
+/*Imagens*/
 
-.inicio .img1{
+#img1{
     position: absolute;
-    left: 100px;
-    top: 270px;
+    left: 140px;
+    top: 140px;
     width: 400px;
 }
 
-.inicio .img2{
+#img2{
     position: absolute;
-    top: 270px;
-    right: 155px;
+    top: 160px;
+    right: 200px;
     width: 270px; /*-170*/
 }
 
@@ -86,6 +99,7 @@ body{
     font-family: 'Fascinate Inline', cursive;   
     left: 200px;
 }
+
 .info2 {
     font-family: 'Schibsted Grotesk', sans-serif;
     margin-top: 120px;
@@ -95,205 +109,103 @@ body{
     font-size: 12.5px;
     text-align: justify;
     right: 200px;
-    top: 833px;
+    top: 600px;
+}
+
+/*Opçoes*/
+
+.opcoes {
+    background-color: #640D14;
+    height: 570px;
+    padding-top: 3%;
+    display: block;
+    align-items: center;
+    justify-content: center;
 }
 
 /*Opçoes do Sistema*/
 
-.opcoes {
-    background-color: #640D14;
-    width: 1480px;
-    height: 650px;
-    padding-top: 3%;
-}
-
-.opcoes .sistema {
+.op-container{
     background-color: #F2F2F2;
-    width: 1090px;
+    margin-left: 10%;
+    margin-right: 10%;
     position: relative;
-    margin-top: 65px;
-    left: 200px;
+    display: flex;
+    margin-top: 20px;
     border-radius: 15px;
     box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
 }
 
-.opcoes .sistema img {
-    width: 80px;
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-bottom: 30px;
-}
+/*Opçoes Imagens*/
 
-.opcoes .sistema h5 {
-    color: #640D14;
-    position: absolute;
-    left: 150px;
-    top: 20px;
-    font-size: 20px;
-    font-family: 'Schibsted Grotesk', sans-serif;
-}
-
-.opcoes .sistema p {
-    color: #B23A48;
-    position: absolute;
-    left: 150px;
-    top: 65px;
-    font-size: 15px;
-    font-family: 'Schibsted Grotesk', sans-serif;
-}
-
-.opcoes .sistema a:link {
-    color: #B23A48;
-    position: absolute;
-    right: 70px;
-    top: 60px;
-    font-size: 30px;
-    text-decoration: none;
-}
-
-.opcoes .sistema a:visited {
-    color: #B23A48;
-    position: absolute;
-    right: 70px;
-    top: 60px;
-    font-size: 30px;
-    text-decoration: none;
-}
-
-.opcoes .sistema a:hover {
-    color: #FF8F9C;
-    position: absolute;
-    right: 70px;
-    top: 60px;
-    font-size: 30px;
-    text-decoration: none;
-}
-
-/*Opçoes do Suporte*/
-
-.opcoes .suporte {
-    background-color: #F2F2F2;
-    width: 1090px;
-    position: relative;
-    margin-top: 10px;
-    left: 200px;
-    border-radius: 15px;
-    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
-}
-
-.opcoes .suporte img {
-    width: 70px;
+#op-img1{
+    max-width: 70px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
     margin-top: 20px;
     margin-left: 30px;
     margin-bottom: 20px;
 }
 
-.opcoes .suporte h5 {
-    color: #640D14;
-    position: absolute;
-    left: 150px;
-    top: 20px;
-    font-size: 20px;
-    font-family: 'Schibsted Grotesk', sans-serif;
-}
-
-.opcoes .suporte p {
-    color: #B23A48;
-    position: absolute;
-    left: 150px;
-    top: 65px;
-    font-size: 15px;
-    font-family: 'Schibsted Grotesk', sans-serif;
-}
-
-.opcoes .suporte a:link {
-    color: #B23A48;
-    position: absolute;
-    right: 70px;
-    top: 60px;
-    font-size: 30px;
-    text-decoration: none;
-}
-
-.opcoes .suporte a:visited {
-    color: #B23A48;
-    position: absolute;
-    right: 70px;
-    top: 60px;
-    font-size: 30px;
-    text-decoration: none;
-}
-
-.opcoes .suporte a:hover {
-    color: #FF8F9C;
-    position: absolute;
-    right: 70px;
-    top: 60px;
-    font-size: 30px;
-    text-decoration: none;
-}
-
-/*Opçoes do clientes*/
-
-.opcoes .clientes {
-    background-color: #F2F2F2;
-    width: 1090px;
-    position: relative;
-    margin-top: 10px;
-    left: 200px;
-    border-radius: 15px;
-    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
-}
-
-.opcoes .clientes img {
-    width: 80px;
-    margin-top: 30px;
+#op-img2{
+    max-width: 53px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-top: 20px;
     margin-left: 30px;
-    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
-.opcoes .clientes h5 {
+#op-img3{
+    max-width: 75px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+/*Opções Descriçao*/
+
+.opcoes .op-container .op-desc{
+    width: 200px;
+    display: block;
+}
+
+#op-h5{
     color: #640D14;
-    position: absolute;
-    left: 150px;
-    top: 20px;
-    font-size: 20px;
-    font-family: 'Schibsted Grotesk', sans-serif;
-}
-
-.opcoes .clientes p {
-    color: #B23A48;
-    position: absolute;
-    left: 150px;
-    top: 65px;
     font-size: 15px;
     font-family: 'Schibsted Grotesk', sans-serif;
+    margin-top: 40px;
+    margin-left: 30px;
 }
 
-.opcoes .clientes a:link {
+#op-p{
     color: #B23A48;
-    position: absolute;
-    right: 70px;
-    top: 60px;
-    font-size: 30px;
-    text-decoration: none;
+    margin-left: 30px;    
+    font-size: 13px;
+    font-family: 'Schibsted Grotesk', sans-serif;
 }
 
-.opcoes .clientes a:visited {
+#op-a{
     color: #B23A48;
-    position: absolute;
-    right: 70px;
-    top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 67%;
+    padding-right: 10%;
     font-size: 30px;
+    font-weight: bolder;
     text-decoration: none;
+    transition: all 0.5s ease-in-out;
 }
 
-.opcoes .clientes a:hover {
-    color: #FF8F9C;
-    position: absolute;
-    right: 70px;
-    top: 60px;
-    font-size: 30px;
+#op-a:hover{
+    color: #FFD707;
     text-decoration: none;
 }
 
@@ -301,134 +213,98 @@ body{
 
 .depoimentos{
     display: flex;
-    margin-top: 6%;
-    margin-bottom: 6%;
-    margin-left: 1.5%;
-}
-
-/*DP1*/
-
-.depoimentos .dp1 {
-    width:290px;
-    height: 400px;
-    padding: 25px;
-    margin-left: 10%;
-    border-radius: 15px;
-    background-color: #F2F2F2;
-    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
-}
-
-.depoimentos .dp1 img {
-    width: 150px;
-    padding-left: 70px;
-    padding-right: 70px;
-    background-color: white;
-    border-radius: 15px;
-}
-
-.depoimentos .dp1 h5 {
-    font-size: 20px;
-    color: #8C2F39;
-    font-family: 'Schibsted Grotesk', sans-serif;
-}
-
-.depoimentos .dp1 p {
-    color: #8C2F39;
-    font-family: 'Schibsted Grotesk', sans-serif;
-}
-
-/*DP2*/
-
-.depoimentos .dp2 {
-    width:290px;
-    height: 400px;
-    padding: 25px;
-    margin-left: 10%;
-    border-radius: 15px;
-    background-color: #F2F2F2;
-    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
-}
-
-.depoimentos .dp2 img {
-    display: block;
     align-items: center;
-    width: 140px;
-    padding-left: 70px;
-    padding-right: 80px;
-    background-color: white;
-    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
 }
 
-.depoimentos .dp2 h5 {
-    font-size: 20px;
-    color: #8C2F39;
-    font-family: 'Schibsted Grotesk', sans-serif;
-}
-
-.depoimentos .dp2 p {
-    color: #8C2F39;
-    font-family: 'Schibsted Grotesk', sans-serif;
-}
-
-/*DP3*/
-
-.depoimentos .dp3 {
+.dp-container{
+    display: block;
     width:290px;
     height: 400px;
     padding: 25px;
-    margin-left: 10%;
+    margin: 40px;
     border-radius: 15px;
     background-color: #F2F2F2;
     box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
 }
 
-.depoimentos .dp3 img {
+#dp-img1 {
     display: block;
-    width: 190px;
-    padding-left: 50px;
-    padding-right: 50px;
+    max-width: 240px;
+    max-height: 240px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 65px;
     background-color: white;
     border-radius: 15px;
 }
 
-.depoimentos .dp3 h5 {
-    font-size: 20px;
+#dp-img2 {
+    display: block;
+    max-width: 240px;
+    max-height: 240px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 75px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#dp-img3 {
+    display: block;
+    max-width: 270px;
+    max-height: 240px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#dp-h{
+    margin-top: 10px;
+    font-size: 18px;
     color: #8C2F39;
     font-family: 'Schibsted Grotesk', sans-serif;
 }
 
-.depoimentos .dp3 p {
+#dp-p{
+    margin-top: 10px;
     color: #8C2F39;
     font-family: 'Schibsted Grotesk', sans-serif;
 }
 
 /*Mensagem Final*/
 
-.mensagem {
+.mensagem{
     background-color: #640D14;
-    width: 1480px;
-    margin-right: 0;
     height: 450px;
 }
 
-.mensagem h1 {
+#ms-h{
     color: white;
     font-family: 'Fascinate Inline', cursive;
     font-size: 45px;
     width: 700px;
-    position: flex;
-    margin-left: 13.5%;
-    padding-top: 2%;
+    display: flex;
+    padding-top: 40px;
+    margin-left: 10%;
 }
+
+/*Botoes Finais*/
 
 .mensagem .btn-finais{
     position: relative;
     width: 50%;
     top: 100px;
-    left: 200px;
+    left: 10%;
 }
 
-.mensagem .btn-finais .btn1{
+#btn{
     background-color: white;
     color: #640D14;
     font-family: 'Schibsted Grotesk', sans-serif;
@@ -441,62 +317,56 @@ body{
     padding: 10px;
     border-radius: 2px;
     box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease-in-out;
 }
 
-.mensagem .btn-finais .btn2{
-    background-color: white;
-    color: #640D14;
-    font-family: 'Schibsted Grotesk', sans-serif;
-    font-weight: bold;
-    text-decoration: none;
-    width: 120px;
-    height: 40px;
-    align-items: center;
-    position: relative;
-    padding: 10px;
-    margin-left: 10px;
-    border-radius: 2px;
-    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.1);
+#btn:hover{
+    background-color: #8C2F39;
+    color: white;
 }
 
 /*Rodapé*/
 
 .rodape {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.rodape h5{
+#rd-h{
     color: #640D14;
     font-size: 20px;
     font-family: 'Schibsted Grotesk', sans-serif;
-    padding-left: 300px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-.rodape a:link{
+#rd-a{
     display: block;
     margin-top: 10px;
     text-decoration: none;
     color: #8C2F39;
     font-family: 'Schibsted Grotesk', sans-serif;
-    padding-left: 300px;
+    font-weight: 500;
+    margin-left: 100px;
+    margin-right: 100px;
+    transition: all 0.5s ease-in-out;
 }
 
-.rodape a:visited{
-    display: block;
-    margin-top: 10px;
-    text-decoration: none;
-    color: #8C2F39;
-    font-family: 'Schibsted Grotesk', sans-serif;
-    padding-left: 300px;
-}
-
-.rodape a:hover{
-    display: block;
-    margin-top: 10px;
-    text-decoration: none;
+#rd-a:hover{
     color: #B23A48;
+}
+
+#rd-p{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #8C2F39;
     font-family: 'Schibsted Grotesk', sans-serif;
-    padding-left: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+    cursor: default;
 }
 
 /*Termos*/
@@ -505,9 +375,10 @@ body{
     margin-top: 50px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #creditos{
     display: flex;
-    margin-left: 35%;
+    font-family: 'Schibsted Grotesk', sans-serif;
 }
