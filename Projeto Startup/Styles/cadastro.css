@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background: linear-gradient(135deg, #702727, #B23A48);
+    background-image: linear-gradient(to top left, #780000, #B23A48);
 }
 
 .container {
@@ -21,6 +21,7 @@ body {
     background-color: #fff;
     padding: 25px 30px;
     border-radius: 5px;
+    box-shadow:  20px 20px 20px rgba(40, 40, 40, 0.6);
 }
 
 .container .title {
@@ -114,6 +115,10 @@ form .button input:hover {
 .form-link a:hover {
     text-decoration: none;
     color: #702727;
+}
+
+.confirmacoes{
+    margin-top: 25px;
 }
 
 @media (max-width: 584px) {

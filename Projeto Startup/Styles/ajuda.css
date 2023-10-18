@@ -94,16 +94,23 @@ body {
 }
 
 .inf .info {
-    margin-top: 100px;
+    margin-top: 10px;
     margin-bottom: 50px;
+    background-image: linear-gradient(to top left, #780000, #B23A48);
+    box-shadow:  10px 10px 10px rgba(40, 40, 40, 0.311);
+    border-radius: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
 }
 
 #informacao{
     display: block;
-    width: 500px;
+    width: 700px;
     font-weight: 560;
     font-family: 'Schibsted Grotesk', sans-serif;
-    font-weight: bold;
+    color: white;
 }
 
 .inf .info input{
@@ -123,6 +130,7 @@ body {
 
 .inf .info p{
     margin-bottom: 10px;
+    color: white;
 }
 
 /*Rodapé*/

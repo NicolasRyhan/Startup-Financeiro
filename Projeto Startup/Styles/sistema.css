@@ -92,10 +92,16 @@
 .formulario {
     max-width: 900px;
     width: 100%;
-    border-radius: 5px; 
+    border-radius: 50px;border-radius: 50px; 
     display: flex;
     flex-wrap: wrap;
     margin: 20px 0 12px 0;
+    background-image: linear-gradient(to top left, #780000, #B23A48);
+    box-shadow:  10px 10px 10px rgba(40, 40, 40, 0.311);
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
 }
 
 .formulario .input-box {
@@ -110,7 +116,7 @@
     margin-bottom: 5px;
     font-family: 'Schibsted Grotesk', sans-serif;
     font-weight: bold;
-    
+    color: white;
 }
 
 .formulario .input-box input {
@@ -188,10 +194,11 @@
 
 .formulario .confirmacoes p{
     font-family: 'Schibsted Grotesk', sans-serif;
+    color: #ccc;
 }
 
 .formulario .confirmacoes a {
-    color: #780000;
+    color: white;
     text-decoration: none;
     margin-left: 5px;
     font-weight: bold;
@@ -201,6 +208,6 @@
 }
 
 .formulario .confirmacoes a:hover, .formulario .confirmacoes a:visited {
-    color: #780000;
+    color: white;
     transform: scale(1.01);
 }
