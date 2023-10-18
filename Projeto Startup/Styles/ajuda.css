@@ -1,0 +1,116 @@
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #fff; /* Fundo branco */
+    }
+    
+    /* Barra de informações no topo */
+    .top {
+        background-color: #fff; /* Fundo branco */
+        display: flex;
+        justify-content: space-between; /* Coloca os elementos no canto direito e esquerdo */
+        align-items: center; /* Centraliza verticalmente */
+        padding: 10px;
+        border-bottom: 2px solid #e53935; /* Linha vermelha na parte inferior */
+    }
+    
+    /* Logo da empresa */
+    .logo img {
+        max-width: 100px; /* Ajuste o tamanho conforme necessário */
+    }
+    
+    /* Botões de navegação */
+    .nav-button {
+        background-color: #e53935; /* Cor de fundo vermelha */
+        color: #fff; /* Texto branco */
+        padding: 10px 20px;
+        margin: 5px;
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    
+    .nav-button a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .nav-button:hover {
+        background-color: #c62828; /* Cor de fundo vermelha mais escura quando hover */
+    }
+    
+    /* Conteúdo principal (branco acima, vermelho abaixo) */
+    .mid {
+        text-align: center;
+        background-color: #fff; /* Fundo branco acima */
+        padding: 20px;
+    }
+    
+    /* Rodapé */
+    .bot {
+        background-color: #e53935; /* Fundo vermelho */
+        text-align: center;
+        padding: 10px;
+        color: #fff; /* Texto branco */
+    }
+    
+    /* Estilo para os ícones de Instagram e WhatsApp */
+    .icon {
+        margin-top: 10px;
+    }
+    
+    /* Estilo para as informações do rodapé */
+    info {
+        margin-top: 10px;
+    }
+    /* radio cor e angulo renda*/
+    .input[type="text"], [name="renda"]{
+        border-radius: 5px;
+        background-color: #b9b8b8;
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+    }
+    /* gas*/
+    .input[type="text"],[name="gas"]{
+        border-radius: 5px;
+        background-color:#b9b8b8 ;
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+    }
+    /*cartao de credito */
+    .input[type="text"],[name="cartao"]{
+        border-radius: 5px;
+        background-color: #b9b8b8;
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+    }
+    /*pessoas residentes*/
+    .inpput[type="text"],[name="pessoas"]{
+        border-radius: 5px;
+        background-color: #b9b8b8;
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+    }
+    /*aluguel*/
+    .input[type="text"],[name="aluguel"]{
+        border-radius: 5px;
+        background-color: #b9b8b8;
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+    }
+    /*guardar*/
+    .input[type="text"],[name="guarda"]{
+        border-radius: 5px;
+        background-color: #b9b8b8;
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+    }
+    /*objetivo*/
+    .input[type="text"],[name="objetivo"]{
+        border-radius: 5px;
+        background-color:#b9b8b8;
+        box-shadow: 0 0 0 0;
+        border: 0 none
+    }

@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Inter&family=Schibsted+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bevan&display=swap');
+
 
 /*Navbar*/
 
@@ -11,10 +13,10 @@
 #logo{
     width: 200px;
     color: black;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Anton', sans-serif;
     text-decoration: none;
-    margin: 10px;
-    font-size: 25px;
+    margin-left: 38px;
+    font-size: 50px;
     font-weight: bold;
     transition: all 0.5s ease-in-out;
 }
@@ -31,6 +33,7 @@
     justify-content: end;
     align-items: flex-end;
     margin-right: 10px;
+    margin-bottom: 20px;
 }
 
 #link{
