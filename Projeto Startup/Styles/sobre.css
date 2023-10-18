@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Schibsted+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+html{
+
+    scroll-behavior: smooth;
+
+}
+
+.Header{
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.Header #Logo:link{
+    color: black;
+    font-family: 'Anton', sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+    transition: all 0.5s ease-in-out;
+}
+
+.Header #Logo:visited {
+    color: black;
+    font-family: 'Anton', sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.Header #Logo:hover {
+    color: #B23A48;
+    font-family: 'Anton', sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.navbar a{
+    margin: 10px;
+    margin-top: 15px;
+    font-size: 16px;
+    margin-left: 60%;
+    font-weight: bolder;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.navbar a:link {
+    color: #B23A48;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.navbar a:visited {
+    color: #B23A48;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    color: #640D14;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bolder;
+}
+
+.navbar #contato:link {
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #640D14;
+    color: white;
+    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar #contato:visited {
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #B23A48;
+    color: white;
+    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar #contato:hover {
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #640D14;
+    color: white;
+    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
+    font-family: 'Inter', sans-serif;
+}
+
+.topo{
+
+    padding-top: 40px;
+
+}
+
+.container{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+.textotitulo{
+
+    padding-right: 10px;
+    
+}
+
+.imagem{
+
+    padding-left: 10px;
+
+}
+
+.textotitulo h1#ajuda{
+
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 90px;
+    font-weight: bold;
+    color: #640D14;
+    padding: 0;
+    margin: 0;
+
+}
+.textotitulo h1#Gasto{
+
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 80px;
+    color: #AD2831;
+    padding: 0;
+    margin: 0;
+
+}
+
+section.sumario{
+
+    padding-top: 100px;
+    padding-bottom: 120px;
+
+}
+
+.sumariocontainer{
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.titulosumario{
+
+    width: 60%;
+    font-family: 'Fascinate Inline', cursive;
+    color: #38040E;
+    font-size: 30px;
+    padding-bottom: 20px;
+
+}
+
+.sumarioitens{
+
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    line-height: 35px;
+    color: #38040E;
+    font-family: 'Schibsted Grotesk', sans-serif;
+
+}
+
+a.bton{
+
+    font-family: 'Schibsted Grotesk', sans-serif;
+    text-decoration: none;
+    color: #38040E;
+
+}
+
+.topico{
+
+    background: #640D14;
+    display: flex;
+    justify-content: center;
+
+}
+
+.containertopico{
+
+    padding-top: 120px;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.titulotopico{
+
+    padding-bottom: 20px;
+    width: 50%;
+
+}
+
+.planejamento{
+
+    font-family: 'Fascinate Inline', cursive;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+.texto{
+
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+
+}
+.topico2{
+
+    background: #640D14;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.containertopico2{
+
+    padding-top: 120px;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+
+}
+
+.titulotopico2{
+
+    padding-bottom: 20px;
+
+}
+
+.planejamento2{
+
+    font-family: 'Fascinate Inline', cursive;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: bold;
+    width: 100%;
+
+}
+
+.texto2{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.textofora{
+
+    padding-bottom: 30px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
