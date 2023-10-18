@@ -10,58 +10,87 @@
     <!-- Barra de informações no topo -->
     <div class="top">
         <div class="logo">
-            <img src="logo.png" alt="Logo da Empresa">
+            <a id="logo-nav" href="landing page.html">GS</a>
         </div>
         <div class="nav-links">
-            <a href="#">Início</a>
-            <a href="#">Sobre</a>
-            <a href="#">Sistema</a>
-            <a href="#">Meus Dados</a>
+            <a id="link" href="landing page.html">Início</a>
+            <a id="link" href="#">Sobre</a>
+            <a id="link" href="sistema.html">Sistema</a>
+            <a id="link" href="#">Meus Dados</a>
+            <a id="contato" href="contato.html">Contato</a>
         </div>
     </div>
 
     <!-- Conteúdo principal -->
     <div class="mid">
-    <h1>Ajuda</h1>
-    <p>
-        Bem-vindo à nossa Página de Ajuda. <br>
-        Aqui voce vai encontra ajuda ara preencher os campos do nosso sistema.
-    </p>
-    <img src="C:\Users\Jefferson\OneDrive\Área de Trabalho\Imagens\Capturas de tela\Captura de tela 2023-09-11 122459.png">
-    <p>
-        1. Renda Mensal:
-        Preencha este campo com o valor da sua renda mensal, como salário ou ganhos regulares.</p>
-        <p> Exemplo: </p>
-            <input type="text"  name="renda"  value="R$1320" readonly>
-        <p>2. Gás:
-            Quanto você gasta ou gastou com o gás de cozinha(obs: se você não teve esse gasto no mês deixe esse campo zerado)
+        <h1 id="mid-h">Ajuda</h1>
+        <p id="texto-ajd">
+            Bem-vindo à nossa Página de Ajuda. <br>
+            Aqui voce vai encontra ajuda ara preencher os campos do nosso sistema.
         </p>
-            <p>Exemplo:</p>
-            <input type="text" name="gas" value="R$100" readonly>
-        <p>3. Despesas com Cartão de Crédito:
-        Se você usa cartão de crédito, insira o valor mensal médio que você gasta com ele. Lembre-se de pagar o valor total da fatura para evitar juros altos.</p>
-            <p>Exemplo:</p>
-            <input type="text" name="cartao" value="R$345" readonly>
-        <p>4. Pessoas Residentes: Informe quantas pessoas moram na mesma residencia que você</p>
-            <p>Exemplo:</p>
-            <input typr="text" name="pessoas" value="5 pessoas" readonly>
-        <p>5. Aluguel: informe quanto você paga de aluguel por mês (obs: se você não paga aluguel deixe esse campo zerado) <br> Exemplo:</p>
-            <input type="text" name="aluguel" value="R$1000" readonly>
-        <p>6. Guardar: informe o quanto de dinheiro você gostaria de guardar  <br>Exemplo:</p>
-            <input type="text" name="guarda" value="R$50" readonly>
-        <p>7. Objetivos pessoais: neste campo você informa apenas o valor de um  objeto que você deseja comprar  <br>Exemplo:  </p>
-            <input type="text" name="objetivo" value="R$250" readonly>
-        
     </div>
-
+        <!--
+    <img src="../Images/logo01.png">
+    -->
+<div class="inf">
+    <div class="info">
+        <label id="informacao">
+            1. Renda Mensal:
+            Preencha este campo com o valor da sua renda mensal, como salário ou ganhos regulares.</label>
+            <p> Exemplo: </p>
+                <input type="text"  name="renda"  value="R$1320" readonly>
+            <label id="informacao">2. Gás:
+                Quanto você gasta ou gastou com o gás de cozinha(obs: se você não teve esse gasto no mês deixe esse campo zerado)
+            </label>
+                <p>Exemplo:</p>
+                <input type="text" name="gas" value="R$100" readonly>
+            <label id="informacao">3. Despesas com Cartão de Crédito:
+            Se você usa cartão de crédito, insira o valor mensal médio que você gasta com ele. Lembre-se de pagar o valor total da fatura para evitar juros altos.</label>
+                <p>Exemplo:</p>
+                <input type="text" name="cartao" value="R$345" readonly>
+            <label id="informacao">4. Pessoas Residentes: Informe quantas pessoas moram na mesma residencia que você</label>
+                <p>Exemplo:</p>
+                <input typr="text" name="pessoas" value="5 pessoas" readonly>
+            <label id="informacao">5. Aluguel: informe quanto você paga de aluguel por mês (obs: se você não paga aluguel deixe esse campo zerado) <br> Exemplo:</label>
+                <input type="text" name="aluguel" value="R$1000" readonly>
+            <label id="informacao">6. Guardar: informe o quanto de dinheiro você gostaria de guardar  <br>Exemplo:</label>
+                <input type="text" name="guarda" value="R$50" readonly>
+            <label id="informacao">7. Objetivos pessoais: neste campo você informa apenas o valor de um  objeto que você deseja comprar  <br>Exemplo:  </label>
+                <input type="text" name="objetivo" value="R$250" readonly>
+    </div>
+</div>
     <!-- Rodapé -->
-    <div class="bot">
-        <div class="icon">
-            <a href="#"><img src="instagram-logo.png" alt="Instagram"></a>
-            <a href="#"><img src="whatsapp-logo.png" alt="WhatsApp"></a>
+    <div class="rodape">
+        <!--Empresa-->
+        <div class="empresa">
+            <h5 id="rd-h">Empresa</h5>
+            <a id="rd-a" href="">Sobre</a>
+            <a id="rd-a" href="">Desenvolvedores</a>
+            <p id="rd-p" href="">ㅤ</p>
         </div>
-        <div class="info">
-            © 2023 Sua Empresa | <a href="#">Sobre</a> | <a href="#">Finanças</a> | <a href="#">Suporte</a>
+        <!--Suporte-->
+        <div class="suporte">
+            <h5 id="rd-h">Suporte</h5>
+            <a id="rd-a" href="">FAQ</a>
+            <a id="rd-a" href="../Pages/contato.html">Contato</a>
+            <a id="rd-a" href="../Pages/termos.html">Termos</a>
         </div>
+        <!--Redes-->
+        <div class="redes">
+            <h5 id="rd-h">Redes</h5>
+            <a id="rd-a" target="_blank" href="https://www.instagram.com/gasto.sabio/">Instagram</a>
+            <a id="rd-a" href="">Twitter</a>
+            <a id="rd-a" href="">Linkedin</a>
+        </div>
+    </div>
+    <div class="termos">
+        <img src="" alt="">
+        <div>
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </div>
+        <p id="creditos">C 2023 Gasto Sábio. Todos os direitos reservados.</p>
     </div>
 </body>
