@@ -76,6 +76,24 @@ body{
     font-weight: bolder;
 }
 
+#link-p{
+    color: #B23A48;
+    text-decoration: none;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 350px;
+    text-decoration: overline;
+    font-weight: bolder;
+    transition: all 0.5s ease-in-out;
+}
+
+#link-p:hover{
+    color: #FFD707;
+}
+
 /*Imagens*/
 
 #img1{

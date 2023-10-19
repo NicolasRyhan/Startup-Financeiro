@@ -70,6 +70,27 @@
     background-color: #B23A48;
 }
 
+/*Fundo*/
+
+.centralizar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fundo{
+    margin-top: 50px;
+    width: 1150px;
+    border-radius: 50px;
+    background-image: linear-gradient(to top left, #780000, #B23A48);
+    border: 2px solid #780000;
+    box-shadow:  20px 20px 20px rgba(40, 40, 40, 0.57);
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
 /*Titulo*/
 
 .titulo {
@@ -78,6 +99,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
 }
 
 /*Depoimentos*/
@@ -100,18 +122,7 @@
     margin: 40px;
     border-radius: 15px;
     background-color: #F2F2F2;
-    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
-}
-
-#dp-img1 {
-    display: block;
-    max-width: 240px;
-    max-height: 240px;
-    padding-top: 30px;
-    padding-left: 70px;
-    padding-right: 65px;
-    background-color: white;
-    border-radius: 15px;
+    box-shadow:  10px 10px 10px rgba(0, 0, 0, 0.508);
 }
 
 #dp-img {
@@ -123,6 +134,7 @@
 
 
 #dp-h{
+    height: 75px;
     margin-top: 10px;
     font-size: 18px;
     color: #8C2F39;
@@ -131,5 +143,63 @@
 
 #dp-p{
     color: #8C2F39;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+/*Rodapé*/
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rd-h{
+    color: #640D14;
+    font-size: 20px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#rd-a{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #8C2F39;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-weight: 500;
+    margin-left: 100px;
+    margin-right: 100px;
+    transition: all 0.5s ease-in-out;
+}
+
+#rd-a:hover{
+    color: #B23A48;
+}
+
+#rd-p{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #8C2F39;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    cursor: default;
+}
+
+/*Termos*/
+
+.termos {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#creditos{
+    display: flex;
     font-family: 'Schibsted Grotesk', sans-serif;
 }

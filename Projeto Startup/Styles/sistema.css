@@ -49,6 +49,20 @@
     color: #640D14;
 }
 
+#link-p{
+    color: #B23A48;
+    font-family: 'Inter', sans-serif;
+    margin: 10px;
+    font-size: 16px;
+    text-decoration: overline;
+    font-weight: bolder;
+    transition: all 0.5s ease-in-out;
+}
+
+#link-p:hover{
+    color: #640D14;
+}
+
 /*Contato*/
 
 #contato{
@@ -89,12 +103,12 @@
 }
 
 .formulario {
+    margin-bottom: 20px;
     max-width: 900px;
     width: 100%;
     border-radius: 50px;border-radius: 50px; 
     display: flex;
     flex-wrap: wrap;
-    margin: 20px 0 12px 0;
     background-image: linear-gradient(to top left, #780000, #B23A48);
     border: 2px solid #780000;
     box-shadow:  10px 10px 10px rgba(40, 40, 40, 0.311);
@@ -115,7 +129,7 @@
     font-weight: 560;
     margin-bottom: 5px;
     font-family: 'Schibsted Grotesk', sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
     color: white;
 }
 
@@ -210,4 +224,62 @@
 .formulario .confirmacoes a:hover, .formulario .confirmacoes a:visited {
     color: white;
     transform: scale(1.01);
+}
+
+/*Rodapé*/
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rd-h{
+    color: #640D14;
+    font-size: 20px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#rd-a{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #8C2F39;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-weight: 500;
+    margin-left: 100px;
+    margin-right: 100px;
+    transition: all 0.5s ease-in-out;
+}
+
+#rd-a:hover{
+    color: #B23A48;
+}
+
+#rd-p{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #8C2F39;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    cursor: default;
+}
+
+/*Termos*/
+
+.termos {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#creditos{
+    display: flex;
+    font-family: 'Schibsted Grotesk', sans-serif;
 }
