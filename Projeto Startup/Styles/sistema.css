@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Inter&family=Schibsted+Grotesk&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bevan&display=swap');
 
-
 /*Navbar*/
 
 .navbar {
@@ -97,6 +96,7 @@
     flex-wrap: wrap;
     margin: 20px 0 12px 0;
     background-image: linear-gradient(to top left, #780000, #B23A48);
+    border: 2px solid #780000;
     box-shadow:  10px 10px 10px rgba(40, 40, 40, 0.311);
     padding-top: 50px;
     padding-left: 50px;
