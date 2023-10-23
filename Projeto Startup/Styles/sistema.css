@@ -1,6 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Inter&family=Schibsted+Grotesk&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bevan&display=swap');
 
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
 /*Navbar*/
 
 .navbar {
@@ -10,7 +24,6 @@
 /*Logo*/
 
 #logo{
-    width: 200px;
     color: black;
     font-family: 'Anton', sans-serif;
     text-decoration: none;
@@ -83,6 +96,7 @@
 #contato:hover {
     background-color: #B23A48;
 }
+
 
 /*Titulo*/
 
@@ -282,4 +296,182 @@
 #creditos{
     display: flex;
     font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+/* Media Query para telas menores que 768px */
+@media screen and (max-width: 768px) {
+    #logo {
+        font-size: 40px;
+        margin-left: 20px;
+    }
+
+    .navbar .nvb {
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
+
+    #link, #link-p {
+        font-size: 14px;
+        margin: 5px;
+    }
+
+    #contato {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .form-container {
+        display: block;
+    }
+
+    .formulario .input-box {
+        width: 100%;
+    }
+
+    .formulario .input-box input {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .formulario button {
+        height: 40px;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .formulario .confirmacoes {
+        height: auto;
+    }
+}
+
+/* Media Query para telas menores que 576px */
+@media screen and (max-width: 576px) {
+    #logo {
+        font-size: 30px;
+        margin-left: 10px;
+    }
+
+    #link, #link-p {
+        font-size: 12px;
+        margin: 3px;
+    }
+
+    #contato {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .titulo {
+        font-size: 30px;
+    }
+
+    .form-container {
+        display: block;
+    }
+
+    .formulario .input-box {
+        width: 100%;
+    }
+
+    .formulario .input-box input {
+        height: 35px;
+        font-size: 12px;
+    }
+
+    .formulario button {
+        height: 35px;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .formulario .confirmacoes input {
+        width: 15px;
+        height: 15px;
+    }
+
+    .formulario .confirmacoes p {
+        font-size: 10px;
+    }
+
+    .rodape #rd-h, .rodape #rd-a, .rodape #rd-p {
+        font-size: 12px;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .termos #creditos {
+        font-size: 12px;
+    }
+}
+
+/* Media Query para telas menores que 480px */
+@media screen and (max-width: 480px) {
+    #logo {
+        font-size: 20px;
+    }
+
+    #link, #link-p {
+        font-size: 10px;
+        margin: 2px;
+    }
+
+    #contato {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .titulo {
+        font-size: 20px;
+    }
+
+    .form-container {
+        display: block;
+    }
+
+    .formulario .input-box {
+        width: 100%;
+    }
+
+    .formulario .input-box .details {
+        margin-left: 10px;
+        font-size: 12px;
+    }
+
+    .formulario .input-box input {
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .formulario button {
+        height: 30px;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .formulario .confirmacoes input {
+        width: 12px;
+        height: 12px;
+    }
+
+    .formulario .confirmacoes p {
+        font-size: 8px;
+    }
+
+    .rodape #rd-h, .rodape #rd-a, .rodape #rd-p {
+        font-size: 10px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .termos #creditos {
+        font-size: 10px;
+    }
 }

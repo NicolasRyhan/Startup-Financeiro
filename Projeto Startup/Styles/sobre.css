@@ -199,7 +199,7 @@ a.bton{
 
 }
 
-.topico{
+.topico1{
 
     background: #640D14;
     display: flex;
@@ -207,7 +207,7 @@ a.bton{
 
 }
 
-.containertopico{
+.containertopico1{
 
     padding-top: 120px;
     width: 80%;
@@ -219,14 +219,14 @@ a.bton{
 
 }
 
-.titulotopico{
+.titulotopico1{
 
     padding-bottom: 20px;
     width: 50%;
 
 }
 
-.planejamento{
+.planejamento1{
 
     font-family: 'Fascinate Inline', cursive;
     color: #ffffff;
@@ -235,7 +235,7 @@ a.bton{
 
 }
 
-.texto{
+.texto1{
 
     padding-top: 40px;
     padding-bottom: 30px;
@@ -246,6 +246,7 @@ a.bton{
     line-height: 30px;
 
 }
+
 .topico2{
 
     background: #640D14;
@@ -293,11 +294,279 @@ a.bton{
     font-weight: bold;
 
 }
-.textofora{
+.textofora2{
 
     padding-bottom: 30px;
     font-family: 'Schibsted Grotesk', sans-serif;
     color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+/* ------------------------- */
+
+.topico3{
+
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.containertopico3{
+
+    padding-top: 120px;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+
+}
+
+.titulotopico3{
+
+    padding-bottom: 20px;
+
+}
+
+.planejamento3{
+
+    font-family: 'Fascinate Inline', cursive;
+    color: #640D14;
+    font-size: 60px;
+    font-weight: bold;
+    width: 100%;
+
+}
+
+.texto3{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    color: #640D14;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+.topico4{
+
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.containertopico4{
+
+    padding-top: 120px;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+
+}
+
+.titulotopico4{
+
+    padding-bottom: 20px;
+
+}
+
+.planejamento4{
+
+    font-family: 'Fascinate Inline', cursive;
+    color: #640D14;
+    font-size: 60px;
+    font-weight: bold;
+    width: 100%;
+
+}
+
+.texto4{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    color: #640D14;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.textofora4{
+
+    padding-bottom: 30px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    color: #640D14;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+/* --------------------------------------------- */
+
+.topico5{
+
+    background: #640D14;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.containertopico5{
+
+    padding-top: 120px;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+
+}
+
+.titulotopico5{
+
+    padding-bottom: 20px;
+
+}
+
+.planejamento5{
+
+    font-family: 'Fascinate Inline', cursive;
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+    width: 100%;
+
+}
+
+.texto5{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+.topico6{
+
+    background: #640D14;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.containertopico6{
+
+    padding-top: 120px;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+
+}
+
+.titulotopico6{
+
+    padding-bottom: 20px;
+
+}
+
+.planejamento6{
+
+    font-family: 'Fascinate Inline', cursive;
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+    width: 100%;
+
+}
+
+.texto6{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.textofora6{
+
+    padding-bottom: 30px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+.topico7{
+
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 100px;
+
+
+}
+
+.containertopico7{
+
+    padding-top: 120px;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+
+}
+
+.titulotopico7{
+
+    padding-bottom: 20px;
+
+}
+
+.planejamento7{
+
+    font-family: 'Fascinate Inline', cursive;
+    color: #640D14;
+    font-size: 60px;
+    font-weight: bold;
+    width: 100%;
+
+}
+
+.texto7{
+
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    color: #640D14;
     font-size: 20px;
     font-weight: bold;
 

@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Inter&family=Schibsted+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bevan&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+
+/*Navbar*/
+
+.navbar {
+    display: flex;
+}
+
+/*Logo*/
+
+#logo{
+    color: black;
+    font-family: 'Anton', sans-serif;
+    text-decoration: none;
+    margin-left: 38px;
+    font-size: 50px;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+
+#logo:hover {
+    color: #B23A48;
+}
+
+/*Links*/
+
+.navbar .nvb{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+#link{
+    color: #B23A48;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bolder;
+    transition: all 0.5s ease-in-out;
+}
+
+#link:hover{
+    color: #FFD707;
+}
+
+#link-p{
+    color: #B23A48;
+    font-family: 'Inter', sans-serif;
+    margin: 10px;
+    font-size: 16px;
+    text-decoration: overline;
+    font-weight: bolder;
+    transition: all 0.5s ease-in-out;
+}
+
+#link-p:hover{
+    color: #FFD707;
+}
+
+/*Contato*/
+
+#contato{
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #640D14;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
+    font-family: 'Inter', sans-serif;
+}
+
+#contato:hover {
+    background-color: #B23A48;
+}
+
+/*Informações*/
+
+.container-info{
+}
+
+.box-info{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-info-one{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to top left, #007f5f, #80b918);
+    margin: 0 10px;
+    font-family: 'Inter', sans-serif;
+    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
+
+}
+
+/*background-image: linear-gradient(to top left, #780000, #B23A48);*/
+
+.box-info-two{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px;
+    border-radius: 15px;
+    color: white;
+    background-image: linear-gradient(to top left, #780000, #B23A48);
+    margin: 0 10px;
+    font-family: 'Inter', sans-serif;
+    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
+
+}
+.box-info-three{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px;
+    border-radius: 15px;
+    color: white;
+    background-image: linear-gradient(to top left, #03045e, #0096c7);
+    margin: 0 10px;
+    font-family: 'Inter', sans-serif;
+    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.311);
+
+}
+
+/*Graficos*/
+
+.graficos-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text-1{
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.graficos-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text-2{
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+

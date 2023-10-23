@@ -146,18 +146,20 @@ header{
     background-color: #3affe8;
 }
 
+.container-info{
+    width: 1000px;
+}
 
-.box-info{
-    width: 100%;
+.container-info .box-info{
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
 }
 
-.box-info-one{
+.container-info .box-info .box-info-one{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 100px;
     padding: 30px;
     border-radius: 15px;
     color: rgb(255, 255, 255);

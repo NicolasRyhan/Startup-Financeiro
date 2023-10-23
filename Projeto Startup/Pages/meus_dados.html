@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Dados</title>
+    <link rel="stylesheet" href="../Styles/meus_dados.css">
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    
+
+</head>
+<body>
+    <div class="navbar">
+        <a id="logo" href="landing page.html">GS</a>
+        <div class="nvb">
+            <a id="link" href="landing page.html">Inicio</a>
+            <a id="link" href="sobre.html">Sobre</a>
+            <a id="link" href="sistema.html">Sistema</a>
+            <a id="link-p" href="meus_dados.html">Meus dados</a>
+            <a id="contato" href="contato.html">Contato</a>
+        </div>
+    </div>
+
+
+<div class="container-info">
+    <div class="box-info">
+        <div style="background-color: linear-gradient(45deg, #FF5370, #ff869a) ;" class="box-info-one">
+            <div class="info-text">
+                <h3>Dinheiro Total</h3>
+                <p>R$ 100.000,00</p>
+            </div>
+            <i class="fa-solid fa-money-check-dollar"></i>
+        </div>
+        <div class="box-info-two">
+            <div class="info-text">
+                <h3>Dinheiro Gasto</h3>
+                <p>R$ 100.000,00</p>
+            </div>
+            <i class="fa-solid fa-money-check-dollar"></i>
+        </div>
+        <div class="box-info-three">
+            <div class="info-text">
+                <h3>Objetivo</h3>
+                <p>R$ 100.000,00</p>
+            </div>
+            <i class="fa-solid fa-sack-dollar"></i>
+        </div>
+    </div>
+</div>
+
+<!-- Graficos -->
+
+<!-- Grafico Pizza -->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Gastos', 'Dias'],
+          ['Aluguel',     700],
+          ['Cartão',      200],
+          ['Alimentação',  500],
+          ['Plano de Saúde', 300],
+          ['Energia',    120],
+          ['Água', 60],
+          ['Objetivos Pessoais', 100],
+
+        ]);
+
+        var options = {
+          title: ''
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+
+    <!-- Gráfico linhas -->
+
+    <script type="text/javascript">
+        google.charts.load('current', {'packages':['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
+  
+        function drawChart() {
+          var data = google.visualization.arrayToDataTable([
+            ['Year', 'Com Investimento', 'Sem Investimento'],
+            ['2023',  1000,       1001],
+            ['2024',  1500,       1001],
+            ['2025',  3000,       1001],
+            ['2026',  6000,       1001],
+            ['2027',  12000,       1001],
+            ['2028',  24000,       1001],
+            ['2029',  48000,       1001]
+          ]);
+  
+          var options = {
+            title: '',
+            curveType: 'function',
+            legend: { position: 'bottom' }
+          };
+  
+          var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+  
+          chart.draw(data, options);
+        }
+      </script>
+
+<!-- Grafico Barras -->
+
+<script type="text/javascript">
+    google.charts.load("current", {packages:['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+        ["Element", "Density", { role: "style" } ],
+        ["Aluguel", 700, "#250902"],
+        ["Cartão", 200, "#38040e"],
+        ["Alimentação", 500, "#4e0911"],
+        ["Plano de Saúde", 300, "color: #720e14"],
+        ["Energia", 120, "color: #971b22"],
+        ["Água", 60, "color: #ad2831"],
+        ["Objetivos Pessoais", 100, "color: #b43c44"]
+      ]);
+
+      var view = new google.visualization.DataView(data);
+      view.setColumns([0, 1,
+                       { calc: "stringify",
+                         sourceColumn: 1,
+                         type: "string",
+                         role: "annotation" },
+                       2]);
+
+      var options = {
+        title: "",
+        width: 600,
+        height: 400,
+        bar: {groupWidth: "95%"},
+        legend: { position: "none" },
+      };
+      var chart = new google.visualization.ColumnChart(document.getElementById("columnchart_values"));
+      chart.draw(view, options);
+  }
+  </script>
+
+
+<script type="text/javascript">
+    google.charts.load('current', {'packages':['table']});
+    google.charts.setOnLoadCallback(drawTable);
+
+    function drawTable() {
+      var data = new google.visualization.DataTable();
+      data.addColumn('string', 'Nome');
+      data.addColumn('number', 'Valor');
+      data.addColumn('boolean', 'Pago');
+      data.addRows([
+        ['Aluguel',  {v: 10000, f: 'R$700,00'}, true],
+        ['Cartão',   {v:8000,   f: 'R$200,00'},  false],
+        ['Alimentação', {v: 12500, f: 'R$500,00'}, true],
+        ['Plano de Saúde',   {v: 7000,  f: 'R$300,00'},  true],
+        ['Energia',   {v:8000,   f: 'R$120,00'},  false],
+        ['Água',   {v:8000,   f: 'R$60,00'},  false],
+        ['Objetivos Pessoais',   {v:8000,   f: 'R$100,00'},  false],
+
+      ]);
+
+      var table = new google.visualization.Table(document.getElementById('table_div'));
+
+      table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
+    }
+  </script>
+
+
+
+
+        <!-- HTML - Gráfico Pizza -->
+        <div class="graficos-1">
+            <div class="grafico-pizza">
+                <h1 id="text-1">Gráfico Pizza</h1>
+                <div id="piechart" style="width: 700px; height: 500px;"></div>
+            </div>
+
+            <div class="grafico-linha">
+                <h1 id="text-1">Gráfico de Linhas</h1>
+                <div id="curve_chart" style="width: 700px; height: 500px;"></div>
+            </div>
+        </div>
+
+        <div class="graficos-2">
+            <div class="grafico-coluna">
+                <h1 id="text-2">Gráfico de Colunas</h1>
+                <div id="columnchart_values" style="width: 700px; height: 500px;"></div>
+            </div>
+
+            <div class="grafico-coluna">
+                <h1 id="text-2">Gráfico Tabela</h1>
+                <div id="table_div" style="width: 700px; height: 500px;"></div>
+            </div>
+        </div>
+
+
+
+</body>
+</html>
