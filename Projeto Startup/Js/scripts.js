@@ -1,78 +1,38 @@
-<!-- Styles -->
-<style>
-#chartdiv {
-  width: 100%;
-  height: 500px;
+function adicionarCampo(id) {
+
+  const linha = document.createElement("div");
+  linha.classList.add("input-box");
+
+  const nomeP = document.createElement("span");
+  nomeP.textContent = "Outro:";
+  nomeP.classList.add("details")
+  linha.appendChild(nomeP);
+
+  const nomeInput = document.createElement("input");
+  nomeInput.type = "text";
+  nomeInput.name = `outro${id}`;
+  nomeInput.placeholder = "R$000,00"
+  linha.appendChild(nomeInput);
+
+  const elemento = document.querySelector(".inputs");
+  elemento.appendChild(linha)
 }
-</style>
 
-<!-- Resources -->
-<script src="https://cdn.amcharts.com/lib/5/index.js"></script>
-<script src="https://cdn.amcharts.com/lib/5/percent.js"></script>
-<script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+function removerCampos(nomeDoCampo) {
+  const listaDeLinhas = Array.from(document.querySelectorAll(nomeDoCampo));
+  if (listaDeLinhas.length > 0) {
+      const campo = listaDeLinhas.pop();
+      campo.remove();
+  }
+}
 
-<!-- Chart code -->
-<script>
-am5.ready(function() {
-
-// Create root element
-// https://www.amcharts.com/docs/v5/getting-started/#Root_element
-var root = am5.Root.new("chartdiv");
-
-// Set themes
-// https://www.amcharts.com/docs/v5/concepts/themes/
-root.setThemes([
-  am5themes_Animated.new(root)
-]);
-
-// Create chart
-// https://www.amcharts.com/docs/v5/charts/percent-charts/pie-chart/
-var chart = root.container.children.push(
-  am5percent.PieChart.new(root, {
-    endAngle: 270
-  })
-);
-
-// Create series
-// https://www.amcharts.com/docs/v5/charts/percent-charts/pie-chart/#Series
-var series = chart.series.push(
-  am5percent.PieSeries.new(root, {
-    valueField: "value",
-    categoryField: "category",
-    endAngle: 270
-  })
-);
-
-series.states.create("hidden", {
-  endAngle: -90
+//Adicionar campos em profissionais
+const botaoAdicionarCampo = document.querySelector("#adicionar-campos-itens");
+botaoAdicionarCampo.addEventListener("click", () => {
+    adicionarCampo(document.querySelectorAll(".input-box").length + 1);
 });
 
-// Set data
-// https://www.amcharts.com/docs/v5/charts/percent-charts/pie-chart/#Setting_data
-series.data.setAll([{
-  category: "Lithuania",
-  value: 501.9
-}, {
-  category: "Czechia",
-  value: 301.9
-}, {
-  category: "Ireland",
-  value: 201.1
-}, {
-  category: "Germany",
-  value: 165.8
-}, {
-  category: "Australia",
-    value: 139.9
-}, {
-    category: "Austria",
-    value: 128.3
-}, {
-    category: "UK",
-    value: 99
-}]);
-
-series.appear(1000, 100);
-
-}); // end am5.ready()
-</script>
+// Remover Campos em profissionais
+document.querySelector("#remover-campos-itens").addEventListener("click", () => {
+    removerCampos(".input-box");
+});

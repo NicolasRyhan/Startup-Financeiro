@@ -6,6 +6,7 @@
     <title>Sistema</title>
     <link rel="icon" href="../Images/logo01.png" type="image/x-icon">
     <link rel="stylesheet" href="../Styles/sistema.css">
+    <script src="../Js/scripts.js" defer></script>
 </head>
 <body>
     <div class="fundo-geral">
@@ -28,57 +29,70 @@
     <div class="form-container">
         <form action="" method="post" class="formulario">  
             <!--Inputs-->
-            <div class="input-box">
-                <span class="details">Renda da Casa</span> 
-                <input type="text" name="" id="" placeholder="Ex: R$000,00" required>
+            <div class="inputs">
+                <div class="input-box">
+                    <span class="details">Renda da Casa</span> 
+                    <input type="text" name="" id="" placeholder="Ex: R$000,00" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Aluguel</span> 
+                    <input type="text" name="" id="" placeholder="Ex: R$000,00" >
+                </div>
+                <div class="input-box">
+                    <span class="details">Gás</span> 
+                    <input type="text" name="" id="" placeholder="Ex: R$000,00" >
+                </div>
+                <div class="input-box">
+                    <span class="details">Guardar</span> 
+                    <input type="text" name="" id="" placeholder="Ex: R$000,00" >
+                </div>
+                <div class="input-box">
+                    <span class="details">Cartão</span> 
+                    <input type="text" name="" id="" placeholder="Ex: R$000,00" >
+                </div>
+                <div class="input-box">
+                    <span class="details">Objetivos Pessoais</span> 
+                    <input type="text" name="" id="" placeholder="Ex: R$000,00" >
+                </div>
+                <div class="input-box">
+                    <span class="details">Pessoas Residentes</span> 
+                    <input type="text" name="" id="" placeholder="03" >
+                </div>
+                <div class="input-box">
+                    <span class="details">Meses</span> 
+                    <input type="text" name="" id="" placeholder="01 - 12" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Plano de Saúde</span> 
+                    <input type="text" name="" id="" placeholder="Ex: R$000,00" >
+                </div>
+                <div class="input-box">
+                    <span class="details">Alimentação</span> 
+                    <input type="text" name="" id="" placeholder="Ex: R$000,00" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Energia</span> 
+                    <input type="text" name="" id="" placeholder="Ex: R$000,00" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Água</span> 
+                    <input type="text" name="" id="" placeholder="Ex: R$000,00" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Outro</span> 
+                    <input type="text" name="" id="" placeholder="Ex: R$000,00" >
+                </div>
             </div>
-            <div class="input-box">
-                <span class="details">Aluguel</span> 
-                <input type="text" name="" id="" placeholder="Ex: R$000,00" >
-            </div>
-            <div class="input-box">
-                <span class="details">Gás</span> 
-                <input type="text" name="" id="" placeholder="Ex: R$000,00" >
-            </div>
-            <div class="input-box">
-                <span class="details">Guardar</span> 
-                <input type="text" name="" id="" placeholder="Ex: R$000,00" >
-            </div>
-            <div class="input-box">
-                <span class="details">Cartão</span> 
-                <input type="text" name="" id="" placeholder="Ex: R$000,00" >
-            </div>
-            <div class="input-box">
-                <span class="details">Objetivos Pessoais</span> 
-                <input type="text" name="" id="" placeholder="Ex: R$000,00" >
-            </div>
-            <div class="input-box">
-                <span class="details">Pessoas Residentes</span> 
-                <input type="text" name="" id="" placeholder="03" >
-            </div>
-            <div class="input-box">
-                <span class="details">Meses</span> 
-                <input type="text" name="" id="" placeholder="01 - 12" required>
-            </div>
-            <div class="input-box">
-                <span class="details">Plano de Saúde</span> 
-                <input type="text" name="" id="" placeholder="Ex: R$000,00" >
-            </div>
-            <div class="input-box">
-                <span class="details">Alimentação</span> 
-                <input type="text" name="" id="" placeholder="Ex: R$000,00" required>
-            </div>
-            <div class="input-box">
-                <span class="details">Energia</span> 
-                <input type="text" name="" id="" placeholder="Ex: R$000,00" required>
-            </div>
-            <div class="input-box">
-                <span class="details">Água</span> 
-                <input type="text" name="" id="" placeholder="Ex: R$000,00" required>
-            </div>
-            <div class="input-box">
-                <span class="details">Outro</span> 
-                <input type="text" name="" id="" placeholder="Ex: R$000,00" >
+    
+            <div class="controle-campos">
+                <div class="adicionar-campos">
+                    <label class="details" for="adicionar-campos-itens"> Adicionar mais campos</label>
+                    <button type="button" id="adicionar-campos-itens">+</button>
+                </div>
+                <div class="remover-campos">
+                    <label class="details" for="remover-campos-itens"> Remover último campo</label>
+                    <button type="button" id="remover-campos-itens">-</button>
+                </div>
             </div>
             
             <!--Confirmações-->
