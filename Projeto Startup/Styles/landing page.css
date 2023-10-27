@@ -407,3 +407,147 @@ body{
     display: flex;
     font-family: 'Schibsted Grotesk', sans-serif;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .inicio h1 {
+        font-size: 120px;
+    }
+
+    .inicio .navbar a:link,
+    #link-p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #img1 {
+        left:10px;
+        top: 120px;
+        width: 300px;
+        z-index: -1;
+    }
+
+    #img2 {
+        top: 120px;
+        right: 15px;
+        width: 200px;  
+        z-index: -1;
+    }
+
+
+.info1 {
+    width: 100%; 
+    font-size: 24px; 
+    left: 0; 
+    text-align: center; 
+    padding: 20px;
+  
+    top: 230px;
+    margin-bottom: 100px;
+}
+
+.info2 {
+    width: 100%; 
+    font-size: 12px; 
+    text-align: center; 
+    right: 0; 
+    padding: 20px; 
+    margin: 0;
+    margin-top: 30px;
+}
+
+.fundo-op {
+    margin-top: 230px;
+    width: 1024px;
+}
+
+.opcoes {
+    height: auto; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+
+.op-container {
+    margin: 20px; 
+    top: 50px;
+}
+
+
+#op-img1,
+#op-img2,
+#op-img3 {
+    max-width: 50px; 
+    margin: 20px;
+}
+
+
+.opcoes .op-container .op-desc {
+    width: 100%; 
+    text-align: center; 
+
+#op-h5 {
+    margin-top: 20px; 
+    margin-left: 0; 
+    text-align: center; 
+}
+
+#op-p {
+    margin-left: 0; 
+    text-align: center; 
+}
+
+#op-a {
+    padding-left: 0; 
+    padding-right: 0; 
+    display: block; 
+    text-align: center; 
+}
+
+.depoimentos {
+    display: flex;
+        flex-wrap: wrap; 
+        justify-content: center; 
+        flex-direction: column;
+}
+
+.dp-container {
+    width: 290px;
+        height: auto; 
+        margin: 20px; 
+}
+
+#dp-img1,
+#dp-img2,
+#dp-img3 {
+    max-width: 100%; 
+    max-height: auto; 
+    padding: 10px; 
+}
+
+#dp-h {
+    text-align: center; 
+    margin-top: 10px;
+    font-size: 18px;
+    color: #8C2F39;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+#dp-p {
+    text-align: center; 
+    margin-top: 10px;
+    color: #8C2F39;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+#dp-p, #dp-h{
+
+    text-align: center; /* Centralize o texto */
+    margin-top: 10px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+
+}
+
+
+}
+}
