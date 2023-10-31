@@ -203,3 +203,808 @@
     display: flex;
     font-family: 'Schibsted Grotesk', sans-serif;
 }
+
+@media screen and (max-width: 390px) {
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Logo */
+    #logo {
+        color: black;
+        font-family: 'Anton', sans-serif;
+        text-decoration: none;
+        margin: 0; 
+        font-size: 30px; 
+        font-weight: bold;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #logo:hover {
+        color: #B23A48;
+    }
+
+    /* Links */
+    .navbar .nvb {
+        flex: 1;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin: 5px 0; 
+    }
+
+    #link, #link-p {
+        color: #B23A48;
+        font-family: 'Inter', sans-serif;
+        text-decoration: none;
+        font-size: 12px; 
+        font-weight: bolder;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #link:hover, #link-p:hover {
+        color: #FFD707;
+    }
+
+
+    .centralizar {
+        justify-content: center;
+    }
+
+    .fundo {
+        margin-top: 5px;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .titulo {
+        font-size: 12px;
+    }
+
+    .dp-container {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    #dp-img {
+        max-width: 100%;
+        max-height: 100px;
+    }
+
+    #dp-h {
+        font-size: 10px;
+        
+    }
+
+    #dp-p {
+        font-size: 10px;
+    }
+
+    /* Contato */
+    #contato {
+        text-decoration: none;
+        padding: 6px 12px; 
+        border-radius: 10px;
+        align-items: center;
+        background-color: #640D14;
+        color: white;
+        transition: all 0.5s ease-in-out;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.311);
+        font-family: 'Inter', sans-serif;
+    }
+
+    #contato:hover {
+        background-color: #B23A48;
+    }
+
+    
+     /* Rodapé */
+
+     .rodape {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #rd-h {
+        color: #640D14;
+        font-size: 14px;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    #rd-a {
+        display: block;
+        margin-top: 10px;
+        text-decoration: none;
+        color: #8C2F39;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        font-weight: 500;
+        text-align: center;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #rd-a:hover {
+        color: #B23A48;
+    }
+
+    #rd-p {
+        display: block;
+        margin-top: 10px;
+        text-decoration: none;
+        color: #8C2F39;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        text-align: center;
+        cursor: default;
+    }
+
+    /* Termos */
+
+    .termos {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #creditos {
+        display: flex;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 390px) and (max-width: 459px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Logo */
+    #logo {
+        color: black;
+        font-family: 'Anton', sans-serif;
+        text-decoration: none;
+        margin: 0; 
+        font-size: 34px; 
+        font-weight: bold;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #logo:hover {
+        color: #B23A48;
+    }
+
+    /* Links */
+    .navbar .nvb {
+        flex: 1;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin: 5px 0; 
+    }
+
+    #link, #link-p {
+        color: #B23A48;
+        font-family: 'Inter', sans-serif;
+        text-decoration: none;
+        font-size: 12px; 
+        font-weight: bolder;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #link:hover, #link-p:hover {
+        color: #FFD707;
+    }
+
+    /* Contato */
+    #contato {
+        text-decoration: none;
+        padding: 6px 12px; 
+        border-radius: 10px;
+        align-items: center;
+        background-color: #640D14;
+        color: white;
+        transition: all 0.5s ease-in-out;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.311);
+        font-family: 'Inter', sans-serif;
+    }
+
+    #contato:hover {
+        background-color: #B23A48;
+    }
+    
+   
+    .centralizar {
+        justify-content: center;
+    }
+
+    .fundo {
+        margin-top: 5px;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .titulo {
+        font-size: 12px;
+    }
+
+    .dp-container {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    #dp-img {
+        max-width: 100%;
+        max-height: 100px;
+    }
+
+    #dp-h {
+        font-size: 10px;
+        margin-bottom: 50px;
+    }
+
+    #dp-p {
+        font-size: 10px;
+    }
+
+/* Rodapé */
+
+    .rodape {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #rd-h {
+        color: #640D14;
+        font-size: 12px;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        margin-top: 16px;
+        margin-left: 8px;
+        margin-right: 8px;
+        text-align: center;
+    }
+
+    #rd-a {
+        display: block;
+        margin-top: 8px;
+        text-decoration: none;
+        color: #8C2F39;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        font-weight: 500;
+        text-align: center;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #rd-a:hover {
+        color: #B23A48;
+    }
+
+    #rd-p {
+        display: block;
+        margin-top: 8px;
+        text-decoration: none;
+        color: #8C2F39;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        text-align: center;
+        cursor: default;
+    }
+
+    /* Termos */
+
+    .termos {
+        margin-top: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #creditos {
+        display: flex;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 459px) and (max-width: 599px) {
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Logo */
+    #logo {
+        color: black;
+        font-family: 'Anton', sans-serif;
+        text-decoration: none;
+        margin: 0; 
+        font-size: 38px; 
+        font-weight: bold;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #logo:hover {
+        color: #B23A48;
+    }
+
+    /* Links */
+    .navbar .nvb {
+        flex: 1;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin: 5px 0; 
+    }
+
+    #link, #link-p {
+        color: #B23A48;
+        font-family: 'Inter', sans-serif;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bolder;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #link:hover, #link-p:hover {
+        color: #FFD707;
+    }
+
+    /* Contato */
+    #contato {
+        text-decoration: none;
+        padding: 8px 16px; 
+        border-radius: 10px;
+        align-items: center;
+        background-color: #640D14;
+        color: white;
+        transition: all 0.5s ease-in-out;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.311);
+        font-family: 'Inter', sans-serif;
+    }
+
+    #contato:hover {
+        background-color: #B23A48;
+    }
+    
+    .centralizar {
+        justify-content: center;
+    }
+
+    .fundo {
+        margin-top: 10px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .titulo {
+        font-size: 14px;
+    }
+
+    .dp-container {
+        width: 100%;
+        height: auto;
+        margin: 20px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    #dp-img {
+        max-width: 100%;
+        max-height: 120px;
+    }
+
+    #dp-h {
+        font-size: 10px;
+        padding-bottom: 25px;
+    }
+
+    #dp-p {
+        font-size: 10px;
+    }
+
+    /* Rodapé */
+
+    .rodape {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #rd-h {
+        color: #640D14;
+        font-size: 12px;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        margin-top: 16px;
+        margin-left: 8px;
+        margin-right: 8px;
+        text-align: center;
+    }
+
+    #rd-a {
+        display: block;
+        margin-top: 8px;
+        text-decoration: none;
+        color: #8C2F39;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        font-weight: 500;
+        text-align: center;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #rd-a:hover {
+        color: #B23A48;
+    }
+
+    #rd-p {
+        display: block;
+        margin-top: 8px;
+        text-decoration: none;
+        color: #8C2F39;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        text-align: center;
+        cursor: default;
+    }
+
+    /* Termos */
+
+    .termos {
+        margin-top: 16px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #creditos {
+        display: flex;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Logo */
+    #logo {
+        color: black;
+        font-family: 'Anton', sans-serif;
+        text-decoration: none;
+        margin: 0; 
+        font-size: 38px; 
+        font-weight: bold;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #logo:hover {
+        color: #B23A48;
+    }
+
+    /* Links */
+    .navbar .nvb {
+        flex: 1;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin: 5px 0; 
+    }
+
+    #link, #link-p {
+        color: #B23A48;
+        font-family: 'Inter', sans-serif;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bolder;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #link:hover, #link-p:hover {
+        color: #FFD707;
+    }
+
+    /* Contato */
+    #contato {
+        text-decoration: none;
+        padding: 8px 16px; 
+        border-radius: 10px;
+        align-items: center;
+        background-color: #640D14;
+        color: white;
+        transition: all 0.5s ease-in-out;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.311);
+        font-family: 'Inter', sans-serif;
+    }
+
+    #contato:hover {
+        background-color: #B23A48;
+    }
+
+
+    .centralizar {
+        justify-content: center;
+    }
+
+    .fundo {
+        margin-top: 20px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .titulo {
+        font-size: 16px;
+    }
+
+    .dp-container {
+        width: 100%;
+        height: auto;
+        margin: 20px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    #dp-img {
+        max-width: 100%;
+        max-height: 150px;
+    }
+
+    #dp-h {
+        font-size: 12px;
+    }
+
+    #dp-p {
+        font-size: 12px;
+    }
+
+     /* Rodapé */
+
+     .rodape {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #rd-h {
+        color: #640D14;
+        font-size: 10px;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        margin-top: 12px;
+        margin-left: 6px;
+        margin-right: 6px;
+        text-align: center;
+    }
+
+    #rd-a {
+        display: block;
+        margin-top: 6px;
+        text-decoration: none;
+        color: #8C2F39;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        font-weight: 500;
+        text-align: center;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #rd-a:hover {
+        color: #B23A48;
+    }
+
+    #rd-p {
+        display: block;
+        margin-top: 6px;
+        text-decoration: none;
+        color: #8C2F39;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        text-align: center;
+        cursor: default;
+    }
+
+    /* Termos */
+
+    .termos {
+        margin-top: 12px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #creditos {
+        display: flex;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*Logo*/
+
+    #logo {
+        color: black;
+        font-family: 'Anton', sans-serif;
+        text-decoration: none;
+        margin-left: 0; 
+        font-size: 46px; 
+        font-weight: bold;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #logo:hover {
+        color: #B23A48;
+    }
+
+    /*Links*/
+
+    .navbar .nvb {
+        flex: 1;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin: 5px 0; 
+    }
+
+    #link {
+        color: #B23A48;
+        font-family: 'Inter', sans-serif;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bolder;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #link:hover {
+        color: #FFD707;
+    }
+
+    #link-p {
+        color: #B23A48;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        text-decoration: overline;
+        font-weight: bolder;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #link-p:hover {
+        color: #FFD707;
+    }
+
+    /*Contato*/
+
+    #contato {
+        text-decoration: none;
+        padding: 10px 20px; 
+        border-radius: 10px;
+        align-items: center;
+        background-color: #640D14;
+        color: white;
+        transition: all 0.5s ease-in-out;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.311);
+        font-family: 'Inter', sans-serif;
+    }
+
+    #contato:hover {
+        background-color: #B23A48;
+    }
+
+    /**/
+    .centralizar {
+        justify-content: center;
+    }
+
+    .fundo {
+        margin-top: 30px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .titulo {
+        font-size: 18px;
+    }
+
+    .dp-container {
+        width: 100%;
+        height: auto;
+        margin: 20px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    #dp-img {
+        max-width: 100%;
+        max-height: 200px;
+    }
+
+    #dp-h {
+        font-size: 14px;
+    }
+
+    #dp-p {
+        font-size: 14px;
+    }
+    /**/
+
+    .rodape {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #rd-h {
+        color: #640D14;
+        font-size: 14px;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    #rd-a {
+        display: block;
+        margin-top: 10px;
+        text-decoration: none;
+        color: #8C2F39;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        font-weight: 500;
+        text-align: center;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #rd-a:hover {
+        color: #B23A48;
+    }
+
+    #rd-p {
+        display: block;
+        margin-top: 10px;
+        text-decoration: none;
+        color: #8C2F39;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        text-align: center;
+        cursor: default;
+    }
+
+    /* Termos */
+
+    .termos {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #creditos {
+        display: flex;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        text-align: center;
+    }
+
+}

@@ -254,3 +254,397 @@ section .titulo{
     display: flex;
     font-family: 'Schibsted Grotesk', sans-serif;
 }
+
+@media screen and (max-width: 390px) {
+
+    .Header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px 20px; 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+        background-color: #ffffff;
+    }
+
+    .Header #Logo:link,
+    .Header #Logo:visited,
+    .Header #Logo:hover {
+        color: black;
+        font-family: 'Inter', sans-serif;
+        text-decoration: none;
+        margin: 10px;
+        font-size: 20px; 
+        font-weight: bolder;
+    }
+
+    .navbar a {
+        margin: 10px;
+        margin-top: 15px;
+        font-size: 14px; 
+        margin-left: 60%;
+        font-weight: bolder;
+    }
+
+    .navbar a:link,
+    .navbar a:visited,
+    .navbar a:hover {
+        color: #B23A48;
+        font-family: 'Inter', sans-serif;
+        text-decoration: none;
+        margin: 10px;
+        font-size: 14px; 
+    }
+
+    .navbar #contato:link,
+    .navbar #contato:visited,
+    .navbar #contato:hover {
+        text-decoration: none;
+        padding: 10px 15px; 
+        border-radius: 10px;
+        align-items: center;
+        background-color: #640D14;
+        color: white;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.311);
+        font-family: 'Inter', sans-serif;
+    }
+
+     /* Rodapé */
+
+     .rodape {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #rd-h {
+        color: #640D14;
+        font-size: 14px;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    #rd-a {
+        display: block;
+        margin-top: 10px;
+        text-decoration: none;
+        color: #8C2F39;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        font-weight: 500;
+        text-align: center;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #rd-a:hover {
+        color: #B23A48;
+    }
+
+    #rd-p {
+        display: block;
+        margin-top: 10px;
+        text-decoration: none;
+        color: #8C2F39;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        text-align: center;
+        cursor: default;
+    }
+
+    /* Termos */
+
+    .termos {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #creditos {
+        display: flex;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 390px) and (max-width: 459px) {
+
+    .Header {
+        padding: 10px 14px; 
+    }
+
+    .Header #Logo:link,
+    .Header #Logo:visited,
+    .Header #Logo:hover {
+        margin: 5px; 
+        font-size: 20px; 
+    }
+
+    .navbar a {
+        margin: 5px; 
+        margin-top: 10px; 
+        font-size: 14px; 
+        margin-left: 50%; 
+    }
+
+    .navbar a:link,
+    .navbar a:visited,
+    .navbar a:hover {
+        font-size: 14px; 
+    }
+
+    .navbar #contato:link,
+    .navbar #contato:visited,
+    .navbar #contato:hover {
+        padding: 10px 12px; 
+    }
+    
+   
+/* Rodapé */
+
+    .rodape {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #rd-h {
+        color: #640D14;
+        font-size: 12px;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        margin-top: 16px;
+        margin-left: 8px;
+        margin-right: 8px;
+        text-align: center;
+    }
+
+    #rd-a {
+        display: block;
+        margin-top: 8px;
+        text-decoration: none;
+        color: #8C2F39;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        font-weight: 500;
+        text-align: center;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #rd-a:hover {
+        color: #B23A48;
+    }
+
+    #rd-p {
+        display: block;
+        margin-top: 8px;
+        text-decoration: none;
+        color: #8C2F39;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        text-align: center;
+        cursor: default;
+    }
+
+    /* Termos */
+
+    .termos {
+        margin-top: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #creditos {
+        display: flex;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 459px) and (max-width: 599px) {
+
+ 
+    .Header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px 28px; 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+        background-color: #ffffff;
+    }
+
+    .Header #Logo:link,
+    .Header #Logo:visited,
+    .Header #Logo:hover {
+        color: black;
+        font-family: 'Inter', sans-serif;
+        text-decoration: none;
+        margin: 10px;
+        font-size: 24px; 
+        font-weight: bolder;
+    }
+
+    .navbar a {
+        margin: 10px;
+        margin-top: 15px;
+        font-size: 16px; 
+        margin-left: 60%;
+        font-weight: bolder;
+    }
+
+    .navbar a:link,
+    .navbar a:visited,
+    .navbar a:hover {
+        color: #B23A48;
+        font-family: 'Inter', sans-serif;
+        text-decoration: none;
+        margin: 10px;
+        font-size: 16px; 
+    }
+
+    .navbar #contato:link,
+    .navbar #contato:visited,
+    .navbar #contato:hover {
+        text-decoration: none;
+        padding: 10px 15px; 
+        border-radius: 10px;
+        align-items: center;
+        background-color: #640D14;
+        color: white;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.311);
+        font-family: 'Inter', sans-serif;
+    }
+    
+
+    /* Rodapé */
+
+    .rodape {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #rd-h {
+        color: #640D14;
+        font-size: 12px;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        margin-top: 16px;
+        margin-left: 8px;
+        margin-right: 8px;
+        text-align: center;
+    }
+
+    #rd-a {
+        display: block;
+        margin-top: 8px;
+        text-decoration: none;
+        color: #8C2F39;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        font-weight: 500;
+        text-align: center;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #rd-a:hover {
+        color: #B23A48;
+    }
+
+    #rd-p {
+        display: block;
+        margin-top: 8px;
+        text-decoration: none;
+        color: #8C2F39;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        text-align: center;
+        cursor: default;
+    }
+
+    /* Termos */
+
+    .termos {
+        margin-top: 16px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #creditos {
+        display: flex;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+
+
+
+     /* Rodapé */
+
+     .rodape {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #rd-h {
+        color: #640D14;
+        font-size: 10px;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        margin-top: 12px;
+        margin-left: 6px;
+        margin-right: 6px;
+        text-align: center;
+    }
+
+    #rd-a {
+        display: block;
+        margin-top: 6px;
+        text-decoration: none;
+        color: #8C2F39;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        font-weight: 500;
+        text-align: center;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #rd-a:hover {
+        color: #B23A48;
+    }
+
+    #rd-p {
+        display: block;
+        margin-top: 6px;
+        text-decoration: none;
+        color: #8C2F39;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        text-align: center;
+        cursor: default;
+    }
+
+    /* Termos */
+
+    .termos {
+        margin-top: 12px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #creditos {
+        display: flex;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        text-align: center;
+    }
+}
+
