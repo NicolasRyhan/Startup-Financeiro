@@ -1065,19 +1065,19 @@ body {
 @media only screen and (min-width: 459px) and (max-width: 599px) {
 
     .inicio h1 {
-        font-size: 50px; /* Ajuste o tamanho da fonte conforme necessário */
+        font-size: 50px; 
     }
 
     .inicio .navbar a:link,
     #link-p {
-        margin-top: 4px; /* Ajuste as margens conforme necessário */
-        margin-bottom: 4px; /* Ajuste as margens conforme necessário */
+        margin-top: 4px; 
+        margin-bottom: 4px; 
     }
 
     #img1 {
         left: 5px;
         top: 70px;
-        width: 150px; /* Ajuste o tamanho da imagem conforme necessário */
+        width: 150px; 
         z-index: -1;
         margin-top: 10px;
     }
@@ -1085,25 +1085,25 @@ body {
     #img2 {
         top: 70px;
         right: 10px;
-        width: 110px; /* Ajuste o tamanho da imagem conforme necessário */
+        width: 110px; 
         z-index: -1;
         margin-top: 20px;
     }
 
     .info1 {
         width: 100%;
-        font-size: 15px; /* Ajuste o tamanho da fonte conforme necessário */
+        font-size: 15px; 
         left: 0;
         text-align: center;
         padding: 8px;
-        top: 90px; /* Ajuste o posicionamento conforme necessário */
+        top: 90px; 
         margin-top: 300px;
         margin-bottom: 80px;
     }
 
     .info2 {
         width: 100%;
-        font-size: 8px; /* Ajuste o tamanho da fonte conforme necessário */
+        font-size: 8px; 
         text-align: center;
         right: 0;
         padding: 8px;
@@ -1112,7 +1112,7 @@ body {
     }
 
     .fundo-op {
-        margin-top: 90px; /* Ajuste as margens conforme necessário */
+        margin-top: 90px; 
         padding-bottom: 10px;
         display: flex;
         flex-direction: column;
@@ -1126,8 +1126,8 @@ body {
     }
 
     .op-container {
-        margin: 4px; /* Ajuste as margens conforme necessário */
-        top: 10px; /* Ajuste o posicionamento conforme necessário */
+        margin: 4px; 
+        top: 10px; 
         margin-bottom: 20px;
         width: 95%;
     }
@@ -1135,9 +1135,9 @@ body {
     #op-img1,
     #op-img2,
     #op-img3 {
-        width: 40px; /* Ajuste o tamanho da imagem conforme necessário */
-        height: 60px; /* Ajuste o tamanho da imagem conforme necessário */
-        margin: 4px; /* Ajuste as margens conforme necessário */
+        width: 40px; 
+        height: 60px; 
+        margin: 4px; 
     }
 
     .opcoes .op-container .op-desc {
@@ -1146,7 +1146,7 @@ body {
     }
 
     #op-h5 {
-        margin-top: 4px; /* Ajuste as margens conforme necessário */
+        margin-top: 4px; 
         margin-left: 0;
         text-align: center;
     }
@@ -1171,9 +1171,9 @@ body {
     }
 
     .dp-container {
-        width: 250px; /* Ajuste a largura conforme necessário */
+        width: 250px; 
         height: auto;
-        margin: 4px; /* Ajuste as margens conforme necessário */
+        margin: 4px; 
         margin-top: 10px;
         margin-bottom: 15px;
     }
@@ -1183,20 +1183,20 @@ body {
     #dp-img3 {
         max-width: 100%;
         max-height: auto;
-        padding: 4px; /* Ajuste o preenchimento conforme necessário */
+        padding: 4px; 
     }
 
     #dp-h {
         text-align: center;
-        margin-top: 4px; /* Ajuste as margens conforme necessário */
-        font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
+        margin-top: 4px; 
+        font-size: 16px; 
         color: #8C2F39;
         font-family: 'Schibsted Grotesk', sans-serif;
     }
 
     #dp-p {
         text-align: center;
-        margin-top: 4px; /* Ajuste as margens conforme necessário */
+        margin-top: 4px; 
         color: #8C2F39;
         font-family: 'Schibsted Grotesk', sans-serif;
     }
@@ -1315,19 +1315,19 @@ body {
 @media only screen and (min-width: 599px) and (max-width: 767px) {
 
     .inicio h1 {
-        font-size: 40px; /* Ajuste o tamanho da fonte conforme necessário */
+        font-size: 40px; 
     }
 
     .inicio .navbar a:link,
     #link-p {
-        margin-top: 2px; /* Ajuste as margens conforme necessário */
-        margin-bottom: 2px; /* Ajuste as margens conforme necessário */
+        margin-top: 2px; 
+        margin-bottom: 2px; 
     }
 
     #img1 {
         left: 5px;
         top: 50px;
-        width: 120px; /* Ajuste o tamanho da imagem conforme necessário */
+        width: 120px; 
         z-index: -1;
         margin-top: 10px;
     }
@@ -1335,25 +1335,25 @@ body {
     #img2 {
         top: 50px;
         right: 10px;
-        width: 100px; /* Ajuste o tamanho da imagem conforme necessário */
+        width: 100px; 
         z-index: -1;
         margin-top: 20px;
     }
 
     .info1 {
         width: 100%;
-        font-size: 14px; /* Ajuste o tamanho da fonte conforme necessário */
+        font-size: 14px; 
         left: 0;
         text-align: center;
         padding: 8px;
-        top: 70px; /* Ajuste o posicionamento conforme necessário */
+        top: 70px; 
         margin-top: 200px;
         margin-bottom: 60px;
     }
 
     .info2 {
         width: 100%;
-        font-size: 8px; /* Ajuste o tamanho da fonte conforme necessário */
+        font-size: 8px; 
         text-align: center;
         right: 0;
         padding: 8px;
@@ -1362,7 +1362,7 @@ body {
     }
 
     .fundo-op {
-        margin-top: 70px; /* Ajuste as margens conforme necessário */
+        margin-top: 70px; 
         padding-bottom: 10px;
         display: flex;
         flex-direction: column;
@@ -1376,8 +1376,8 @@ body {
     }
 
     .op-container {
-        margin: 2px; /* Ajuste as margens conforme necessário */
-        top: 10px; /* Ajuste o posicionamento conforme necessário */
+        margin: 2px; 
+        top: 10px; 
         margin-bottom: 15px;
         width: 95%;
     }
@@ -1385,9 +1385,9 @@ body {
     #op-img1,
     #op-img2,
     #op-img3 {
-        width: 30px; /* Ajuste o tamanho da imagem conforme necessário */
-        height: 50px; /* Ajuste o tamanho da imagem conforme necessário */
-        margin: 2px; /* Ajuste as margens conforme necessário */
+        width: 30px; 
+        height: 50px; 
+        margin: 2px; 
     }
 
     .opcoes .op-container .op-desc {
@@ -1396,7 +1396,7 @@ body {
     }
 
     #op-h5 {
-        margin-top: 2px; /* Ajuste as margens conforme necessário */
+        margin-top: 2px; 
         margin-left: 0;
         text-align: center;
     }
@@ -1421,9 +1421,9 @@ body {
     }
 
     .dp-container {
-        width: 200px; /* Ajuste a largura conforme necessário */
+        width: 200px; 
         height: auto;
-        margin: 2px; /* Ajuste as margens conforme necessário */
+        margin: 2px; 
         margin-top: 10px;
         margin-bottom: 10px;
     }
@@ -1433,20 +1433,20 @@ body {
     #dp-img3 {
         max-width: 100%;
         max-height: auto;
-        padding: 2px; /* Ajuste o preenchimento conforme necessário */
+        padding: 2px; 
     }
 
     #dp-h {
         text-align: center;
-        margin-top: 2px; /* Ajuste as margens conforme necessário */
-        font-size: 14px; /* Ajuste o tamanho da fonte conforme necessário */
+        margin-top: 2px; 
+        font-size: 14px; 
         color: #8C2F39;
         font-family: 'Schibsted Grotesk', sans-serif;
     }
 
     #dp-p {
         text-align: center;
-        margin-top: 2px; /* Ajuste as margens conforme necessário */
+        margin-top: 2px; 
         color: #8C2F39;
         font-family: 'Schibsted Grotesk', sans-serif;
     }

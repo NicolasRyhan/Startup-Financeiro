@@ -100,8 +100,6 @@ body{
 
 /*Informações*/
 
-.container-info{
-}
 
 .box-info{
     margin-top: 20px;
@@ -177,6 +175,13 @@ body{
     align-items: center;
 }
 
+.grafico-coluna #table_div{
+
+    height: 700px;
+    width: 500px;
+
+}
+
 #text-2{
     font-family: 'Fascinate Inline', cursive;
     font-size: 50px;
@@ -187,3 +192,547 @@ body{
     margin-bottom: 50px;
 }
 
+@media screen and (max-width: 390px) {
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Logo */
+    #logo {
+        color: black;
+        font-family: 'Anton', sans-serif;
+        text-decoration: none;
+        margin: 0; 
+        font-size: 30px; 
+        font-weight: bold;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #logo:hover {
+        color: #B23A48;
+    }
+
+    /* Links */
+    .navbar .nvb {
+        flex: 1;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin: 5px 0; 
+    }
+
+    #link, #link-p {
+        color: #B23A48;
+        font-family: 'Inter', sans-serif;
+        text-decoration: none;
+        font-size: 12px; 
+        font-weight: bolder;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #link:hover, #link-p:hover {
+        color: #FFD707;
+    }
+
+    /* Contato */
+    #contato {
+        text-decoration: none;
+        padding: 6px 12px; 
+        border-radius: 10px;
+        align-items: center;
+        background-color: #640D14;
+        color: white;
+        transition: all 0.5s ease-in-out;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.311);
+        font-family: 'Inter', sans-serif;
+    }
+
+    #contato:hover {
+        background-color: #B23A48;
+    }
+
+    .box-info {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap; 
+    }
+
+    .box-info-one, .box-info-two, .box-info-three {
+        width: 48%; 
+        padding: 8px;
+        border-radius: 10px;
+        color: rgb(255, 255, 255);
+        background-image: linear-gradient(to top left, #007f5f, #80b918);
+        margin: 5px;
+        font-family: 'Inter', sans-serif;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.311);
+    }
+
+    .box-info-two, .box-info-three {
+        background-image: linear-gradient(to top left, #780000, #B23A48);
+    }
+
+    .box-info-three {
+        background-image: linear-gradient(to top left, #03045e, #0096c7);
+    }
+
+    .graficos-1, .graficos-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #text-1, #text-2 {
+        font-size: 16px; 
+        margin: 8px 0; 
+    }
+
+}
+
+@media only screen and (min-width: 390px) and (max-width: 459px) {
+
+    
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Logo */
+    #logo {
+        color: black;
+        font-family: 'Anton', sans-serif;
+        text-decoration: none;
+        margin: 0; 
+        font-size: 34px; 
+        font-weight: bold;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #logo:hover {
+        color: #B23A48;
+    }
+
+    /* Links */
+    .navbar .nvb {
+        flex: 1;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin: 5px 0; 
+    }
+
+    #link, #link-p {
+        color: #B23A48;
+        font-family: 'Inter', sans-serif;
+        text-decoration: none;
+        font-size: 12px; 
+        font-weight: bolder;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #link:hover, #link-p:hover {
+        color: #FFD707;
+    }
+
+    /* Contato */
+    #contato {
+        text-decoration: none;
+        padding: 6px 12px; 
+        border-radius: 10px;
+        align-items: center;
+        background-color: #640D14;
+        color: white;
+        transition: all 0.5s ease-in-out;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.311);
+        font-family: 'Inter', sans-serif;
+    }
+
+    #contato:hover {
+        background-color: #B23A48;
+    }
+
+    .box-info {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap; 
+    }
+
+    .box-info-one, .box-info-two, .box-info-three {
+        width: 48%; 
+        padding: 8px;
+        border-radius: 10px;
+        color: rgb(255, 255, 255);
+        background-image: linear-gradient(to top left, #007f5f, #80b918);
+        margin: 5px;
+        font-family: 'Inter', sans-serif;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.311);
+    }
+
+    .box-info-two, .box-info-three {
+        background-image: linear-gradient(to top left, #780000, #B23A48);
+    }
+
+    .box-info-three {
+        background-image: linear-gradient(to top left, #03045e, #0096c7);
+    }
+
+    .graficos-1, .graficos-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    #text-1, #text-2 {
+        font-size: 25px; 
+        margin: 8px 0; 
+    }
+
+}
+
+@media only screen and (min-width: 459px) and (max-width: 599px) {
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Logo */
+    #logo {
+        color: black;
+        font-family: 'Anton', sans-serif;
+        text-decoration: none;
+        margin: 0; 
+        font-size: 38px; 
+        font-weight: bold;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #logo:hover {
+        color: #B23A48;
+    }
+
+    /* Links */
+    .navbar .nvb {
+        flex: 1;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin: 5px 0; 
+    }
+
+    #link, #link-p {
+        color: #B23A48;
+        font-family: 'Inter', sans-serif;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bolder;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #link:hover, #link-p:hover {
+        color: #FFD707;
+    }
+
+    /* Contato */
+    #contato {
+        text-decoration: none;
+        padding: 8px 16px; 
+        border-radius: 10px;
+        align-items: center;
+        background-color: #640D14;
+        color: white;
+        transition: all 0.5s ease-in-out;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.311);
+        font-family: 'Inter', sans-serif;
+    }
+
+    #contato:hover {
+        background-color: #B23A48;
+    }
+
+    .box-info {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap; 
+    }
+
+    .box-info-one, .box-info-two, .box-info-three {
+        width: 48%; 
+        padding: 10px;
+        border-radius: 10px;
+        color: rgb(255, 255, 255);
+        background-image: linear-gradient(to top left, #007f5f, #80b918);
+        margin: 5px;
+        font-family: 'Inter', sans-serif;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.311);
+    }
+
+    .box-info-two, .box-info-three {
+        background-image: linear-gradient(to top left, #780000, #B23A48);
+    }
+
+    .box-info-three {
+        background-image: linear-gradient(to top left, #03045e, #0096c7);
+    }
+
+    .graficos-1, .graficos-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #text-1, #text-2 {
+        font-size: 18px; 
+        margin: 10px 0; 
+    }
+
+}
+
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Logo */
+    #logo {
+        color: black;
+        font-family: 'Anton', sans-serif;
+        text-decoration: none;
+        margin: 0; 
+        font-size: 42px; 
+        font-weight: bold;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #logo:hover {
+        color: #B23A48;
+    }
+
+    /* Links */
+    .navbar .nvb {
+        flex: 1;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin: 5px 0; 
+    }
+
+    #link, #link-p {
+        color: #B23A48;
+        font-family: 'Inter', sans-serif;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bolder;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #link:hover, #link-p:hover {
+        color: #FFD707;
+    }
+
+    /* Contato */
+    #contato {
+        text-decoration: none;
+        padding: 8px 16px; 
+        border-radius: 10px;
+        align-items: center;
+        background-color: #640D14;
+        color: white;
+        transition: all 0.5s ease-in-out;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.311);
+        font-family: 'Inter', sans-serif;
+    }
+
+    #contato:hover {
+        background-color: #B23A48;
+    }
+
+    .box-info {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap; 
+    }
+
+    .box-info-one, .box-info-two, .box-info-three {
+        width: 48%; 
+        padding: 10px;
+        border-radius: 10px;
+        color: rgb(255, 255, 255);
+        background-image: linear-gradient(to top left, #007f5f, #80b918);
+        margin: 5px;
+        font-family: 'Inter', sans-serif;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.311);
+    }
+
+    .box-info-two, .box-info-three {
+        background-image: linear-gradient(to top left, #780000, #B23A48);
+    }
+
+    .box-info-three {
+        background-image: linear-gradient(to top left, #03045e, #0096c7);
+    }
+
+    .graficos-1, .graficos-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .grafico-coluna #table_div{
+
+        width: 570px;
+        height: 700px;
+
+    }
+
+    #text-1, #text-2 {
+        font-size: 20px; 
+        margin: 10px 0; 
+    }
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*Logo*/
+
+    #logo {
+        color: black;
+        font-family: 'Anton', sans-serif;
+        text-decoration: none;
+        margin-left: 0; 
+        font-size: 46px; 
+        font-weight: bold;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #logo:hover {
+        color: #B23A48;
+    }
+
+    /*Links*/
+
+    .navbar .nvb {
+        flex: 1;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin: 5px 0; 
+    }
+
+    #link {
+        color: #B23A48;
+        font-family: 'Inter', sans-serif;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bolder;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #link:hover {
+        color: #FFD707;
+    }
+
+    #link-p {
+        color: #B23A48;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        text-decoration: overline;
+        font-weight: bolder;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #link-p:hover {
+        color: #FFD707;
+    }
+
+    /*Contato*/
+
+    #contato {
+        text-decoration: none;
+        padding: 10px 20px; 
+        border-radius: 10px;
+        align-items: center;
+        background-color: #640D14;
+        color: white;
+        transition: all 0.5s ease-in-out;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.311);
+        font-family: 'Inter', sans-serif;
+    }
+
+    #contato:hover {
+        background-color: #B23A48;
+    }
+
+    .box-info {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .box-info-one,
+    .box-info-two,
+    .box-info-three {
+        width: 30%;
+        padding: 15px;
+        border-radius: 10px;
+        color: rgb(255, 255, 255);
+        background-image: linear-gradient(to top left, #007f5f, #80b918);
+        margin: 10px;
+        font-family: 'Inter', sans-serif;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.311);
+    }
+
+    .box-info-two,
+    .box-info-three {
+        background-image: linear-gradient(to top left, #780000, #B23A48);
+    }
+
+    .box-info-three {
+        background-image: linear-gradient(to top left, #03045e, #0096c7);
+    }
+
+    .graficos-1,
+    .graficos-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #text-1,
+    #text-2 {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+}

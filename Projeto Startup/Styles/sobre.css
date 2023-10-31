@@ -109,6 +109,13 @@ html{
 
 }
 
+.imagemtopico{
+
+    width: 400px;
+    height: 400px;
+
+}
+
 .container{
 
     display: flex;
@@ -206,6 +213,8 @@ a.bton{
     justify-content: center;
 
 }
+
+
 
 .containertopico1{
 
@@ -628,4 +637,17 @@ a.bton{
 #creditos{
     display: flex;
     font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+
+@media screen and (max-width: 390px) {}
+
+@media only screen and (min-width: 390px) and (max-width: 459px) {}
+
+@media only screen and (min-width: 459px) and (max-width: 599px) {}
+
+@media only screen and (min-width: 599px) and (max-width: 767px) {}
+
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+
 }
